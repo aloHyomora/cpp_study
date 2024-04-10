@@ -30,6 +30,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_14_struct_pointer", "_14_s
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_15_for", "_15_for\_15_for.vcxproj", "{F8197743-F916-4AB3-9C48-14268C67674F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_16_array_for", "_16_array_for\_16_array_for.vcxproj", "{7368ECD5-0914-450F-A664-C6EF6FF0CC28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -158,6 +160,14 @@ Global
 		{F8197743-F916-4AB3-9C48-14268C67674F}.Release|Win32.Build.0 = Release|Win32
 		{F8197743-F916-4AB3-9C48-14268C67674F}.Release|x64.ActiveCfg = Release|x64
 		{F8197743-F916-4AB3-9C48-14268C67674F}.Release|x64.Build.0 = Release|x64
+		{7368ECD5-0914-450F-A664-C6EF6FF0CC28}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7368ECD5-0914-450F-A664-C6EF6FF0CC28}.Debug|Win32.Build.0 = Debug|Win32
+		{7368ECD5-0914-450F-A664-C6EF6FF0CC28}.Debug|x64.ActiveCfg = Debug|x64
+		{7368ECD5-0914-450F-A664-C6EF6FF0CC28}.Debug|x64.Build.0 = Debug|x64
+		{7368ECD5-0914-450F-A664-C6EF6FF0CC28}.Release|Win32.ActiveCfg = Release|Win32
+		{7368ECD5-0914-450F-A664-C6EF6FF0CC28}.Release|Win32.Build.0 = Release|Win32
+		{7368ECD5-0914-450F-A664-C6EF6FF0CC28}.Release|x64.ActiveCfg = Release|x64
+		{7368ECD5-0914-450F-A664-C6EF6FF0CC28}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
