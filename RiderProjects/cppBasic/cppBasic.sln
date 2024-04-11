@@ -46,6 +46,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_21_method_struct", "_21_me
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_22_recursiveMethod", "_22_recursiveMethod\_22_recursiveMethod.vcxproj", "{47ED4C2B-2DFC-41A2-B505-FCF2BD9FCD4F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_23_inlinemethod", "_23_inlinemethod\_23_inlinemethod.vcxproj", "{13D2B437-2A37-47E5-B8F2-54926880EF8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_24_reference", "_24_reference\_24_reference.vcxproj", "{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -238,6 +242,22 @@ Global
 		{47ED4C2B-2DFC-41A2-B505-FCF2BD9FCD4F}.Release|Win32.Build.0 = Release|Win32
 		{47ED4C2B-2DFC-41A2-B505-FCF2BD9FCD4F}.Release|x64.ActiveCfg = Release|x64
 		{47ED4C2B-2DFC-41A2-B505-FCF2BD9FCD4F}.Release|x64.Build.0 = Release|x64
+		{13D2B437-2A37-47E5-B8F2-54926880EF8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{13D2B437-2A37-47E5-B8F2-54926880EF8E}.Debug|Win32.Build.0 = Debug|Win32
+		{13D2B437-2A37-47E5-B8F2-54926880EF8E}.Debug|x64.ActiveCfg = Debug|x64
+		{13D2B437-2A37-47E5-B8F2-54926880EF8E}.Debug|x64.Build.0 = Debug|x64
+		{13D2B437-2A37-47E5-B8F2-54926880EF8E}.Release|Win32.ActiveCfg = Release|Win32
+		{13D2B437-2A37-47E5-B8F2-54926880EF8E}.Release|Win32.Build.0 = Release|Win32
+		{13D2B437-2A37-47E5-B8F2-54926880EF8E}.Release|x64.ActiveCfg = Release|x64
+		{13D2B437-2A37-47E5-B8F2-54926880EF8E}.Release|x64.Build.0 = Release|x64
+		{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}.Debug|Win32.Build.0 = Debug|Win32
+		{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}.Debug|x64.ActiveCfg = Debug|x64
+		{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}.Debug|x64.Build.0 = Debug|x64
+		{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}.Release|Win32.ActiveCfg = Release|Win32
+		{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}.Release|Win32.Build.0 = Release|Win32
+		{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}.Release|x64.ActiveCfg = Release|x64
+		{C200D8EA-B30D-467F-8E0B-9F8DBE1D62BC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
