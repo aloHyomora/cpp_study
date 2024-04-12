@@ -31,7 +31,13 @@ void Stock::show()
     cout << "stock price : " << share_val << endl;
     cout << "stock total price : " << total_val << endl;
 }
-
+Stock Stock::getTopVal(Stock& stock)
+{
+    if (stock.share_val > share_val)
+        return stock;
+    else return *this;
+        
+}
 // 사용 범위 결정 연산자 :: => 이 함수에 포함된 함수이다를 알려줌.
 // 생성자
 Stock::Stock(string name, int n, int price)

@@ -19,6 +19,7 @@ public:
     void sell(int, float);
     void update(float);
     void show();
+    Stock getTopVal(Stock&);
     Stock(string, int, int);
     Stock();
     ~Stock();

@@ -27,6 +27,22 @@ int main(int argc, char* argv[])
      * 2. 클래스 메서드 정의
      */
 
+	// default 생성자를 통해 크기가 4인 Stock 생성
+	// Stock s[4];
+
+	// Stock 타입으로 배열을 생성하고 각각의 원소에 대입하는 것이기 때문에,
+	// default constructor(생성자)가 필요하다.
+	Stock s[4] = {
+		Stock("A", 10 , 1000),
+		Stock("B", 10 , 1200),
+		Stock("C", 10 , 1300),
+		Stock("D", 10 , 1400)
+	};
+
+	s[0].show();
+	
+	cout << "======================" << endl;
+	
     Stock temp = Stock("Panda", 100, 1000);
 	Stock temp2 = Stock("Panda2", 200, 2000);
 	Stock temp3;
@@ -34,8 +50,12 @@ int main(int argc, char* argv[])
 	temp.show();
 	temp2.show();
 
-	temp = Stock("new Panda", 1000, 3000);
-	temp.show();
+	cout << "Bigger value : ";
+	temp.getTopVal(temp2).show();
+	temp2.getTopVal(temp).show();
+	
+	/*temp = Stock("new Panda", 1000, 3000);
+	temp.show();*/
 
 	
 	// 생성자가 정의되지 않아도 정상적으로 작동한다.
