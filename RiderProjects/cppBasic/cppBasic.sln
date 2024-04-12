@@ -62,6 +62,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_29_operator_overroding", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_30_class_operator_overroding", "_30_class_operator_overroding\_30_class_operator_overroding.vcxproj", "{6E8DE7DE-C0A1-4C2A-BC75-9A7913B34752}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_31_override", "_31_override\_31_override.vcxproj", "{75B86518-231C-4C62-8336-5AE6ACA75D28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -318,6 +320,14 @@ Global
 		{6E8DE7DE-C0A1-4C2A-BC75-9A7913B34752}.Release|Win32.Build.0 = Release|Win32
 		{6E8DE7DE-C0A1-4C2A-BC75-9A7913B34752}.Release|x64.ActiveCfg = Release|x64
 		{6E8DE7DE-C0A1-4C2A-BC75-9A7913B34752}.Release|x64.Build.0 = Release|x64
+		{75B86518-231C-4C62-8336-5AE6ACA75D28}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75B86518-231C-4C62-8336-5AE6ACA75D28}.Debug|Win32.Build.0 = Debug|Win32
+		{75B86518-231C-4C62-8336-5AE6ACA75D28}.Debug|x64.ActiveCfg = Debug|x64
+		{75B86518-231C-4C62-8336-5AE6ACA75D28}.Debug|x64.Build.0 = Debug|x64
+		{75B86518-231C-4C62-8336-5AE6ACA75D28}.Release|Win32.ActiveCfg = Release|Win32
+		{75B86518-231C-4C62-8336-5AE6ACA75D28}.Release|Win32.Build.0 = Release|Win32
+		{75B86518-231C-4C62-8336-5AE6ACA75D28}.Release|x64.ActiveCfg = Release|x64
+		{75B86518-231C-4C62-8336-5AE6ACA75D28}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
