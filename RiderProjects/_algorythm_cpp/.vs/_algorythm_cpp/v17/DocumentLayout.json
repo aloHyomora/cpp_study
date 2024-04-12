@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\_algorythm_cpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F005F1-AE57-47AF-8F0C-9D9864D0D4E3}|_Sum_array\\_Sum_array.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\_algorythm_cpp\\_Sum_array\\_Sum_array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B0F005F1-AE57-47AF-8F0C-9D9864D0D4E3}|_Sum_array\\_Sum_array.vcxproj|solutionrelative:_Sum_array\\_Sum_array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B8EC55-B0FC-450E-90A6-DC0EEE3205A7}|_algorythm_cpp\\_algorythm_cpp.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\_algorythm_cpp\\_algorythm_cpp\\_algorythm_cpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{91B8EC55-B0FC-450E-90A6-DC0EEE3205A7}|_algorythm_cpp\\_algorythm_cpp.vcxproj|solutionrelative:_algorythm_cpp\\_algorythm_cpp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Sum_array.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\_algorythm_cpp\\_Sum_array\\_Sum_array.cpp",
+              "RelativeDocumentMoniker": "_Sum_array\\_Sum_array.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\_algorythm_cpp\\_Sum_array\\_Sum_array.cpp",
+              "RelativeToolTip": "_Sum_array\\_Sum_array.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T07:09:53.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_algorythm_cpp.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\_algorythm_cpp\\_algorythm_cpp\\_algorythm_cpp.cpp",
+              "RelativeDocumentMoniker": "_algorythm_cpp\\_algorythm_cpp.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\_algorythm_cpp\\_algorythm_cpp\\_algorythm_cpp.cpp",
+              "RelativeToolTip": "_algorythm_cpp\\_algorythm_cpp.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-12T06:54:21.052Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
