@@ -27,8 +27,21 @@ int main(int argc, char* argv[])
      * 2. 클래스 메서드 정의
      */
 
-    Stock temp;
-    temp.acquire("Panda", 100, 1000);
+    Stock temp = Stock("Panda", 100, 1000);
+	Stock temp2 = Stock("Panda2", 200, 2000);
+	Stock temp3;
+
+	temp.show();
+	temp2.show();
+
+	temp = Stock("new Panda", 1000, 3000);
+	temp.show();
+
+	
+	// 생성자가 정의되지 않아도 정상적으로 작동한다.
+	// C++에서 암시적으로 디폴트 생성자를 지원해주기 때문.
+	
+    // temp.acquire("Panda", 100, 1000);
     temp.show();
     temp.buy(10, 1200);
     temp.show();

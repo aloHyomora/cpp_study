@@ -33,11 +33,25 @@ void Stock::show()
 }
 
 // 사용 범위 결정 연산자 :: => 이 함수에 포함된 함수이다를 알려줌.
+// 생성자
+Stock::Stock(string name, int n, int price)
+{
+    cout << "Create class (parameter)\n";
+    this->name = name;
+    shares = n;
+    share_val = price;
+    set_total();
+}
 Stock::Stock()
 {
-    // 생성자
+    cout << "Create class\n";
+    this->name = "";
+    shares = 0;
+    share_val = 0;
+    set_total();
 }
+// 파괴자
 Stock::~Stock()
 {
-    // 파괴자
+    cout << name << "Destroy class\n";
 }
