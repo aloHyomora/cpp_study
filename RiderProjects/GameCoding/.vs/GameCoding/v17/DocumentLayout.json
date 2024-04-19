@@ -3,11 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1AF4D42-EC84-48F6-AD6B-9769A62A1D71}|GameCoding\\GameCoding.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\GameCoding\\GameCoding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F1AF4D42-EC84-48F6-AD6B-9769A62A1D71}|GameCoding\\GameCoding.vcxproj|solutionrelative:GameCoding\\GameCoding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|solutionrelative:ArraySample\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1AF4D42-EC84-48F6-AD6B-9769A62A1D71}|GameCoding\\GameCoding.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\VARIANT||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\ArraySample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|solutionrelative:ArraySample\\ArraySample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Helper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|solutionrelative:ArraySample\\Helper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|solutionrelative:ArraySample\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|solutionrelative:ArraySample\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|solutionrelative:ArraySample\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Helper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FA6C7D7-7BAD-490E-A1DD-3338A02B13CF}|ArraySample\\ArraySample.vcxproj|solutionrelative:ArraySample\\Helper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,33 +37,105 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 201,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "variant",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\variant",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\variant",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\variant",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\variant",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-16T13:23:23.454Z",
+              "Title": "ArraySample.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\ArraySample.cpp",
+              "RelativeDocumentMoniker": "ArraySample\\ArraySample.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\ArraySample.cpp",
+              "RelativeToolTip": "ArraySample\\ArraySample.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-19T04:16:47.724Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Helper.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Helper.h",
+              "RelativeDocumentMoniker": "ArraySample\\Helper.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Helper.h",
+              "RelativeToolTip": "ArraySample\\Helper.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-19T04:18:11.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Map.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Map.h",
+              "RelativeDocumentMoniker": "ArraySample\\Map.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Map.h",
+              "RelativeToolTip": "ArraySample\\Map.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-19T04:26:46.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Player.h",
+              "RelativeDocumentMoniker": "ArraySample\\Player.h",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Player.h",
+              "RelativeToolTip": "ArraySample\\Player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-19T04:38:11.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Helper.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Helper.cpp",
+              "RelativeDocumentMoniker": "ArraySample\\Helper.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Helper.cpp",
+              "RelativeToolTip": "ArraySample\\Helper.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-19T04:23:13.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Map.cpp",
+              "RelativeDocumentMoniker": "ArraySample\\Map.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Map.cpp",
+              "RelativeToolTip": "ArraySample\\Map.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-19T04:26:57.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameCoding.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\GameCoding\\GameCoding.cpp",
-              "RelativeDocumentMoniker": "GameCoding\\GameCoding.cpp",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\GameCoding\\GameCoding.cpp",
-              "RelativeToolTip": "GameCoding\\GameCoding.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Player.cpp",
+              "RelativeDocumentMoniker": "ArraySample\\Player.cpp",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\cpp_study\\RiderProjects\\GameCoding\\ArraySample\\Player.cpp",
+              "RelativeToolTip": "ArraySample\\Player.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-16T12:11:44.85Z",
+              "WhenOpened": "2024-04-19T04:38:28.193Z",
               "EditorCaption": ""
             }
           ]
