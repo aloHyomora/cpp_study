@@ -26,13 +26,42 @@ void Sort(int* numbers, int count)
 
 void ChooseLotto(int* numbers)
 {
-    
+    int count = 0;
+
+    while (count != 6)
+    {
+        // 1~45
+        int randValue = 1 + rand() % 45;
+        
+        // 이미 찾은 값인지?
+        bool found = false;
+        
+        for (int i = 0; i < count; i++)
+        {
+            if(numbers[i] == randValue)
+            {
+                found = true;
+                break;
+            }
+        }
+
+        if(found == false)
+        {
+            numbers[count] = randValue;
+            count++;
+        }
+    }
+
+    Sort(numbers, 6);
 }
 
 int main(int argc, char* argv[])
 {
-    int lotto[6] = {1, 42, 3, 15, 6, 5};
-    Sort(lotto, 6);
+    srand(time(nullptr));
+    
+    int lotto[6]; // = {1, 42, 3, 15, 6, 5};
+    // Sort(lotto, 6);
+    ChooseLotto(lotto);
 
     for (int i = 0; i < 6; i++)
     {
