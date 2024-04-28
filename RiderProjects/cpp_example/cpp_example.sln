@@ -6,6 +6,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GuessingNumberGame", "Guess
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LottoMaker", "LottoMaker\LottoMaker.vcxproj", "{072D28FD-04EB-43B9-AEBB-B905653DF890}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snale problem", "snale problem\snale problem.vcxproj", "{BCB17331-3934-49A2-804D-20A379A097EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -38,5 +40,13 @@ Global
 		{072D28FD-04EB-43B9-AEBB-B905653DF890}.Release|Win32.Build.0 = Release|Win32
 		{072D28FD-04EB-43B9-AEBB-B905653DF890}.Release|x64.ActiveCfg = Release|x64
 		{072D28FD-04EB-43B9-AEBB-B905653DF890}.Release|x64.Build.0 = Release|x64
+		{BCB17331-3934-49A2-804D-20A379A097EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BCB17331-3934-49A2-804D-20A379A097EB}.Debug|Win32.Build.0 = Debug|Win32
+		{BCB17331-3934-49A2-804D-20A379A097EB}.Debug|x64.ActiveCfg = Debug|x64
+		{BCB17331-3934-49A2-804D-20A379A097EB}.Debug|x64.Build.0 = Debug|x64
+		{BCB17331-3934-49A2-804D-20A379A097EB}.Release|Win32.ActiveCfg = Release|Win32
+		{BCB17331-3934-49A2-804D-20A379A097EB}.Release|Win32.Build.0 = Release|Win32
+		{BCB17331-3934-49A2-804D-20A379A097EB}.Release|x64.ActiveCfg = Release|x64
+		{BCB17331-3934-49A2-804D-20A379A097EB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
