@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP", "OOP\OOP.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operatorOverride", "operatorOverride\operatorOverride.vcxproj", "{B0210F84-AEFA-40CA-A002-296750E37D0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static_Singleton", "Static_Singleton\Static_Singleton.vcxproj", "{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -68,5 +70,13 @@ Global
 		{B0210F84-AEFA-40CA-A002-296750E37D0D}.Release|Win32.Build.0 = Release|Win32
 		{B0210F84-AEFA-40CA-A002-296750E37D0D}.Release|x64.ActiveCfg = Release|x64
 		{B0210F84-AEFA-40CA-A002-296750E37D0D}.Release|x64.Build.0 = Release|x64
+		{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}.Debug|Win32.Build.0 = Debug|Win32
+		{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}.Debug|x64.ActiveCfg = Debug|x64
+		{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}.Debug|x64.Build.0 = Debug|x64
+		{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}.Release|Win32.ActiveCfg = Release|Win32
+		{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}.Release|Win32.Build.0 = Release|Win32
+		{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}.Release|x64.ActiveCfg = Release|x64
+		{71E0260A-A8AD-49EB-AC29-63AD397ABDC5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
