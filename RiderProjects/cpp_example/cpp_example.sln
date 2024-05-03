@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static_Singleton", "Static_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP_last", "OOP_last\OOP_last.vcxproj", "{B41DD123-0222-42FC-B349-6B75A7ED9B4C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "casting", "casting\casting.vcxproj", "{0AF9571D-E6F5-4A74-B417-411B5D55D660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -88,5 +90,13 @@ Global
 		{B41DD123-0222-42FC-B349-6B75A7ED9B4C}.Release|Win32.Build.0 = Release|Win32
 		{B41DD123-0222-42FC-B349-6B75A7ED9B4C}.Release|x64.ActiveCfg = Release|x64
 		{B41DD123-0222-42FC-B349-6B75A7ED9B4C}.Release|x64.Build.0 = Release|x64
+		{0AF9571D-E6F5-4A74-B417-411B5D55D660}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0AF9571D-E6F5-4A74-B417-411B5D55D660}.Debug|Win32.Build.0 = Debug|Win32
+		{0AF9571D-E6F5-4A74-B417-411B5D55D660}.Debug|x64.ActiveCfg = Debug|x64
+		{0AF9571D-E6F5-4A74-B417-411B5D55D660}.Debug|x64.Build.0 = Debug|x64
+		{0AF9571D-E6F5-4A74-B417-411B5D55D660}.Release|Win32.ActiveCfg = Release|Win32
+		{0AF9571D-E6F5-4A74-B417-411B5D55D660}.Release|Win32.Build.0 = Release|Win32
+		{0AF9571D-E6F5-4A74-B417-411B5D55D660}.Release|x64.ActiveCfg = Release|x64
+		{0AF9571D-E6F5-4A74-B417-411B5D55D660}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
