@@ -20,6 +20,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "casting", "casting\casting.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inventory", "Inventory\Inventory.vcxproj", "{84C3240E-99AF-4D15-AD89-FBA4507C6BF7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{203D76AB-CD91-4927-B0F0-35EDEFA28242}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -108,5 +110,13 @@ Global
 		{84C3240E-99AF-4D15-AD89-FBA4507C6BF7}.Release|Win32.Build.0 = Release|Win32
 		{84C3240E-99AF-4D15-AD89-FBA4507C6BF7}.Release|x64.ActiveCfg = Release|x64
 		{84C3240E-99AF-4D15-AD89-FBA4507C6BF7}.Release|x64.Build.0 = Release|x64
+		{203D76AB-CD91-4927-B0F0-35EDEFA28242}.Debug|Win32.ActiveCfg = Debug|Win32
+		{203D76AB-CD91-4927-B0F0-35EDEFA28242}.Debug|Win32.Build.0 = Debug|Win32
+		{203D76AB-CD91-4927-B0F0-35EDEFA28242}.Debug|x64.ActiveCfg = Debug|x64
+		{203D76AB-CD91-4927-B0F0-35EDEFA28242}.Debug|x64.Build.0 = Debug|x64
+		{203D76AB-CD91-4927-B0F0-35EDEFA28242}.Release|Win32.ActiveCfg = Release|Win32
+		{203D76AB-CD91-4927-B0F0-35EDEFA28242}.Release|Win32.Build.0 = Release|Win32
+		{203D76AB-CD91-4927-B0F0-35EDEFA28242}.Release|x64.ActiveCfg = Release|x64
+		{203D76AB-CD91-4927-B0F0-35EDEFA28242}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
