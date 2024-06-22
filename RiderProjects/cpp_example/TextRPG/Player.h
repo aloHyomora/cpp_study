@@ -29,7 +29,13 @@ public:
     void levelUp();
 
     // 현재 상태 출력 메서드
-    void displayStatus();
+    void displayStatus() const;
+
+    // 플레이어 공격력 반환 메서드
+    int getAttackPower() const;
+
+    // 플레이어 체력 반환 메서드
+    int getHealth() const;
 };
 
 #endif
