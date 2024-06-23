@@ -3,6 +3,9 @@
 
 #include <iostream>
 using namespace std;
+#include <vector>
+#include "Item.h"
+
 class Player
 {
 private:
@@ -12,10 +15,14 @@ private:
     int attackPower;
     int experience;
     int level;
+    vector<Item*> inventory; // 아이템 포인터 벡터
 public:
     // 생성자
     Player(string playerName);
 
+    // 소멸자
+    ~Player(); // 메모리 누수를 방지하기 위해 소멸자 추가
+    
     // 공격 메서드
     void attack();
     
@@ -36,6 +43,12 @@ public:
 
     // 플레이어 체력 반환 메서드
     int getHealth() const;
+
+    // 아이템 사용 메서드
+    void useItem(int index);
+
+    // 아이템 포인터 추가 메서드
+    void addItem(Item* item);
 };
 
 #endif
