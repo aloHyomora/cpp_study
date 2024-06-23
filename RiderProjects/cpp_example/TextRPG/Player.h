@@ -5,6 +5,7 @@
 using namespace std;
 #include <vector>
 #include "Item.h"
+#include <memory>
 
 class Player
 {
@@ -15,7 +16,7 @@ private:
     int attackPower;
     int experience;
     int level;
-    vector<Item*> inventory; // 아이템 포인터 벡터
+    vector<unique_ptr<Item>> inventory; // 아이템 포인터 벡터
 public:
     // 생성자
     Player(string playerName);
@@ -48,7 +49,7 @@ public:
     void useItem(int index);
 
     // 아이템 포인터 추가 메서드
-    void addItem(Item* item);
+    void addItem(unique_ptr<Item> item);
 };
 
 #endif

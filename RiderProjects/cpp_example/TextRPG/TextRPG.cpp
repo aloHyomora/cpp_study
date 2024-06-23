@@ -7,11 +7,18 @@ int main(int argc, char* argv[])
 {
     Player player("Iron Man");
     Monster monster("Goblin", 50, 5);
+
+    unique_ptr<Item> items = make_unique<HealthPotion>("HP potion", 30);
+    player.addItem(move(items));
+
+    player.useItem(0);
+    
+    
     char input;
-    // player.displayStatus();
+    
     while (true)
     {
-        cout << "Enter command (i for player Info, M for monster Info, A for Attack, q to quit): ";
+        cout << "Enter command (i for player Info, M for monster Info, U for Inventory, A for Attack, q to quit): ";
         cin >> input;
 
         if(input == 'i') player.displayStatus();
@@ -25,6 +32,13 @@ int main(int argc, char* argv[])
                 cout << " The monster is defeated!\n";
                 break;
             }
+        }
+        else if(input == 'u')
+        {
+            int index;
+            cout << "Enter item index to use: ";
+            cin >> index;
+            player.useItem(index);
         }
         else if(input == 'q') break;
         else cout << "Invalid command. Please try again.\n";
