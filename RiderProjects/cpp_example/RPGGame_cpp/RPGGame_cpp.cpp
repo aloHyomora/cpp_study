@@ -26,7 +26,19 @@ int main(int argc, char* argv[])
         Item* item = DropItem();
 
         item -> PrintInfo();
+        ItemType itemType = item ->GetItemType();
 
+        if (itemType == IT_Weapon)
+        {
+            Weapon* weapon = (Weapon*)item;
+            weapon->GetDamage();
+        }
+        else if (itemType == IT_Armor)
+        {
+            Armor* armor = (Armor*)item;
+            armor->GetDefence();
+        }
+        
         // delete Item
     }
     

@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{547A9F34-0647-4AC0-9E78-4FAFAE49B78F}</ProjectGuid>
+    <ProjectGuid>{81F3CDFA-AB21-4771-98B3-62A26C3EBD83}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>RPGGame_cpp</RootNamespace>
+    <RootNamespace>GameCoding</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,12 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Item.cpp" />
-    <ClCompile Include="RPGGame_cpp.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Enums.h" />
-    <ClInclude Include="Item.h" />
+    <ClCompile Include="GameCoding.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
