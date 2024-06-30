@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include "Inventory.h"
 #include "Item.h"
 
 // [시스템] 몬스터를 잡을 때, 아이템을 떨군다.
@@ -19,6 +20,8 @@ Item* DropItem()
 
 int main(int argc, char* argv[])
 {
+    Inventory inventory;
+    
     srand((unsigned)time(0));
 
     for (int i =0; i<100; i++)
@@ -40,6 +43,7 @@ int main(int argc, char* argv[])
         }
         
         // delete Item
+        
     }
     
     return 0;

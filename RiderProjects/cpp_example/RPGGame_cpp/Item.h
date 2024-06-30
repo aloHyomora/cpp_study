@@ -1,5 +1,6 @@
 ﻿#pragma once
 #include "Enums.h"
+
 // Item
 // - Weapon 
 // - Armor
@@ -56,3 +57,6 @@ private:
 // Q3 : 자식 클래스 Weapon의 _damage 정보를 Item 타입 변수에서 접근하려면 어떻게 해야 할까?
 // 가상함수로 만든다. virtual, override
 // 캐스팅
+
+// Q4 : 스마트 포인터가 무엇이냐?>
+// 나(변수)를 참조하고 있는 것들의 개수를 카운팅하다가 0이 되면 메모리를 해제하는 기법이다.
