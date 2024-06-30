@@ -15,13 +15,20 @@ public:
 
     bool AddItem(Item* item);
     bool RemoveItem(Item* item);
+    Item* GetItemSlot(int slot);
 
+    void Clear();
+    
+    static Inventory* GetInstance();
+    
+private:
     int FindEmptySlot();
     int FindItemSlot(Item* item);
 private:
     int itemCount = 0;
     Item* _itmes[MAX_SLOT]; // 아이템의 주소를 가지는 포인터 배열
-    
+
+    static Inventory* s_instance;
 };
 
 // Inventory inventory; 스택 영역에 올라감 (설계도 상 변수도 스택 영역에)

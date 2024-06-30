@@ -1,5 +1,7 @@
 ﻿#include "Inventory.h"
 
+Inventory* Inventory::s_instance = nullptr;
+
 Inventory::Inventory()
 {
     for (int i = 0; i< MAX_SLOT; i++)
@@ -33,6 +35,35 @@ bool Inventory::RemoveItem(Item* item)
 
     _itmes[slot] = nullptr;
     itemCount--;
+}
+
+Item* Inventory::GetItemSlot(int slot)
+{
+    if(slot < 0 || slot >= MAX_SLOT)
+        return nullptr;
+
+    return _itmes[slot];
+}
+
+void Inventory::Clear()
+{
+    for (int i =0 ; i < MAX_SLOT; i++)
+    {
+        if(_itmes[i])
+        {
+            delete _itmes[i];
+            _itmes[i] = nullptr;
+        }
+    }
+    
+}
+
+Inventory* Inventory::GetInstance()
+{
+    if(s_instance == nullptr)
+        s_instance = new Inventory();
+    
+    return s_instance;
 }
 
 int Inventory::FindEmptySlot()
