@@ -6,6 +6,11 @@ void Player::attack()
 {
     cout << name << " attacks with power " << attackPower << "!\n";
 }
+Player::~Player()
+{
+    
+}
+
 void Player::takeDamage(int damage)
 {
     health -= damage;
@@ -47,3 +52,20 @@ int Player::getHealth() const
 {
     return health;
 }
+void Player::addItem(unique_ptr<Item> item)
+{
+    inventory.push_back(move(item));
+}
+void Player::useItem(int index)
+{
+    if(index >= 0 && index < inventory.size())
+    {
+        inventory[index]->use(); // 아이템의 use 메서드 호출
+        inventory.erase(inventory.begin() + index); // 인벤토리에서 삭제
+    }
+    else
+    {
+        cout << "Invalid item index.\n";
+    }
+}
+
