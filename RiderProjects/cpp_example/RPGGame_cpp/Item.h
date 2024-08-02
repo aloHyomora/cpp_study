@@ -47,7 +47,6 @@ public:
     virtual void PrintInfo() override;
 private:
     int _defence = 0;
-    
 };
 
 // Q1 : 부모 클래스의 소멸자에 virtual 키워드가 없으면 무슨 문제가 있는가?
