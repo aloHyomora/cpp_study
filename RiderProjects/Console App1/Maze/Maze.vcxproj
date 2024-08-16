@@ -154,11 +154,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataStructure\Array.cpp" />
     <ClCompile Include="DataStructure\List.cpp" />
+    <ClCompile Include="DataStructure\Vector.cpp" />
     <ClCompile Include="Maze.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DataStructure\Array.h" />
     <ClInclude Include="DataStructure\List.h" />
+    <ClInclude Include="DataStructure\Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
