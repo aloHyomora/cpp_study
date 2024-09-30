@@ -5,7 +5,8 @@ using namespace std;
 // ============================
 //			Item
 // ============================
-Item::Item()
+
+Item::Item(ItemType itemType) : m_type(itemType) // 자식 클래스의 생성자에서 지정해줘야 함.
 {
 	int randValue = rand() % 100;
 
@@ -45,8 +46,22 @@ void Item::PrintInfo()
 // ============================
 //			 Weapon
 // ============================
-Weapon::Weapon()
+Weapon::Weapon() : Item(IT_Weapon)
 {
+	switch (m_rarity)
+	{
+	case IR_Normal:
+		m_damage = 1 + rand() % 5;
+		break;
+	case IR_Rare:
+		m_damage = 10 + rand() % 10;
+		break;
+	case IR_Unique:
+		m_damage = 30 + rand() % 20;
+		break;
+	default:
+		break;
+	}
 }
 
 Weapon::~Weapon()
@@ -54,7 +69,6 @@ Weapon::~Weapon()
 }
 void Weapon::PrintInfo()
 {
-
 	cout << "======================" << endl;
 	cout << "[아이템 타입] : 무기" << endl;
 	cout << "[공격력] : " << m_damage << endl;
@@ -64,8 +78,22 @@ void Weapon::PrintInfo()
 // ============================
 //			 Armor
 // ============================
-Armor::Armor()
+Armor::Armor() : Item(IT_Armor)
 {
+	switch (m_rarity)
+	{
+	case IR_Normal:
+		m_defence = 1 + rand() % 5;
+		break;
+	case IR_Rare:
+		m_defence = 10 + rand() % 10;
+		break;
+	case IR_Unique:
+		m_defence = 30 + rand() % 20;
+		break;
+	default:
+		break;
+	}
 }
 
 Armor::~Armor()

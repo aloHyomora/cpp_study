@@ -5,26 +5,25 @@
 // - Armor
 // - Consumable
 
-enum ItemRarity
-{
-	IR_None,
-	IR_Normal,
-	IR_Rare,
-	IR_Unique
-};
+#include "enums.h"
 
 class Item
 {
-public:
-	Item();
+protected:
+	// Item(); // 기본 생성자
+	Item(ItemType itemType);
 	virtual ~Item();
 
+public:
 	// void PrintInfo();
 	virtual void PrintInfo(); // 가상 함수, 상속한 아이의 태생적인 정보에 따라 출력
+	ItemType GetItemType() { return m_type; }
+
 protected:
 	int m_itenId = 0;
 	int m_itemCount = 0; // 물약, 버프 100개 이상
 	ItemRarity m_rarity = IR_None;
+	ItemType m_type = IT_None;
 };
 
 class Weapon : public Item
