@@ -2,6 +2,7 @@
 
 using namespace std;
 #include "Item.h"
+#include "Inventory.h"
 
 // [시스템] 몬스터를 잡을 때, 아이템을 떨군다.
 Item* DropItem() {
@@ -18,8 +19,41 @@ Item* DropItem() {
 
 int main()
 {
+
+
+    for (int i = 0; i < 100; i++)
+    {
+        Item* item = DropItem();
+        item->PrintInfo();
+
+        if (Inventory::GetInstance()->AddItem(item)) {
+            cout << "Added Item to Inventory." << endl;
+        }
+        else
+        {
+            cout << "Fail to Add Item." << endl;
+            delete item;
+        }
+    }
+
+    // PK 당해서 랜덤으로 아이템 드랍
+    for (int i = 0; i < 20; i++)
+    {
+        int randIndex = rand() % MAX_SLOT;
+        Item* item = Inventory::GetInstance()->GetItemAtSlot(randIndex);
+        if (item != nullptr) {
+            if (Inventory::GetInstance()->RemoveItem(item)) {
+                cout << "Remove Item" << endl;
+            }
+        }
+    }
+
+    cout << "==================" << endl;
+    cout << "DropItem, 캐스팅, 자식 클래스의 타입 판단, 메서드 호출" << endl;
     srand((unsigned)time(0));
 
+    // DropItem, 캐스팅, 자식 클래스의 타입 판단, 메서드 호출
+    // 나중에는 스마트 포인터를 활용하게 될 수 있음.
     for (int i = 0; i < 10; i++)
     {
         Item* item = DropItem(); 
@@ -44,10 +78,8 @@ int main()
         {
             Armor* armor = (Armor*)item;
             armor->GetDefence();
-        }
-               
+        }               
     }
-
-    std::cout << "Hello World!\n";
+    cout << "==================" << endl;
 }
 

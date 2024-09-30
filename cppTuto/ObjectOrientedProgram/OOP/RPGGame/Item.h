@@ -12,6 +12,7 @@ class Item
 protected:
 	// Item(); // 기본 생성자
 	Item(ItemType itemType);
+public:
 	virtual ~Item();
 
 public:
