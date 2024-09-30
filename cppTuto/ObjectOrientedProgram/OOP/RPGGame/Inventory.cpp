@@ -1,4 +1,5 @@
 #include "Inventory.h"
+#include "Item.h"
 
 // 우린 s_instance 사용할 것이다.
 Inventory* Inventory::s_instance = nullptr;

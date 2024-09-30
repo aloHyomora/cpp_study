@@ -1,7 +1,9 @@
 #pragma once
 
-#include "Item.h"
-
+// #include "Item.h"
+// 전방 선언
+class Item;  // -> 나중에 등장할 것이라고 예고하고, .cpp에 #include 한다.
+// 헤더 파일끼리 #include 하는 건 지양하자. 
 enum {
 	MAX_SLOT = 100
 };
@@ -18,7 +20,7 @@ public:
 	int FindItemSlot(Item* item);
 	Item* GetItemAtSlot(int slot);
 
-	void Cleat();
+	void Clear();
 
 	static Inventory* GetInstance();
 private:
