@@ -6,7 +6,7 @@ class Archer : public Player
 public:
 	Archer(class Pet* pet);
 	Archer(int hp);
-	~Archer();
+	virtual ~Archer();
 
 public:
 	class Pet* _pet;

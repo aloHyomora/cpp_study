@@ -34,6 +34,7 @@ bool Knight::IsDead()
 
 int Knight::GetAttackDamage()
 {
+	if (_hp <= 0) return -1;
 	// hp 50% 이하 => maxHp / hp가 2 이상
 	int damage = _attack;
 

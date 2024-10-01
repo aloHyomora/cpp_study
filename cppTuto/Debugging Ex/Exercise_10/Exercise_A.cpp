@@ -47,6 +47,7 @@ int main()
 			{
 				delete knight;
 				knight = nullptr;
+				break;
 			}
 		}	
 
