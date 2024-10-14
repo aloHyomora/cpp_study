@@ -55,12 +55,38 @@ public:
 			if (current->student.getId() == id) {
 				return &(current->student);
 			}
+			current = current->next;
 		}
 		// 학생을 찾지 못한 경우  nullptr 반환
 		return nullptr; 
 	}
 	// 학번을 기준으로 학생 삭제
+	void deleteStudent(int id) {
+		Node* current = m_head;
+		Node* prev = nullptr;
 
+		while (current != nullptr && current->student.getId() != id)
+		{
+			// id와 current student의 id와 다르면 다음 학생으로
+			prev = current->next;
+			current = current->next;			
+		}
+
+		if (current == nullptr) { // 학생을 찾지 못한 경우
+			cout << "Student with ID " << id << " not found." << endl;
+			return;
+		}
+
+		if (prev == nullptr) { // 첫 번째 학생이 삭제 대상인 경우
+			m_head = current->next;
+		}
+		else
+		{
+			prev->next = current->next;
+		}
+		delete current;
+		cout << "Student with ID " << id << "deleted." << endl;
+	}
 	// 모든 학생 정보 출력
 	void printAllStudents() const {
 		Node* current = m_head;
