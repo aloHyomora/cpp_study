@@ -1,1 +1,2 @@
 C:\Users\aloho\Documents\GitHub\cpp_study\cppTuto\alogorithm\dynamic arrangement\x64\Debug\dynamic arrangement.exe
+E:\cpp_study\cppTuto\alogorithm\dynamic arrangement\x64\Debug\dynamic arrangement.exe
