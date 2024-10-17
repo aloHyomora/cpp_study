@@ -52,17 +52,19 @@ void Player::CalculatePath()
 		Pos(0, 1)	// RIGHT
 	};	
 
+#pragma region 없어도 되는 코드
 	// 내가 바라보는 방향 기준 앞에 있는 좌표?
 	Pos next = pos + front[m_dir];
 	// 오른쪽 방향으로 90도 회전
 	m_dir = (m_dir - 1) % DIR_COUNT;
 	// 오른쪽 방향으로 90도 회전
 	m_dir = (m_dir + 1) % DIR_COUNT;
+#pragma endregion
 
 	// 목적지 찾을 때까지
 	while (pos != dest)
 	{
-		// 1. 현재 바라보는 방향 기준으로, 오른쪽으로 갈 수 있는지 확인.
+		// 1. 현재 바라보는 방향 기준으로, 오른쪽(-1)으로 갈 수 있는지 확인.
 		int32 newDir = (m_dir - 1 + DIR_COUNT) % DIR_COUNT;
 		if (CanGo(pos + front[newDir]))
 		{
