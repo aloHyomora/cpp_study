@@ -27,8 +27,8 @@ private:
 	Board*  m_board = nullptr;
 
 	// 동적 배열 (플레이어가 이동할 좌표를 넣음)
-	Vector  m_path;			// {(1,1), (2,2), (3,3)}
-	int32	m_pathIndex = 0;
-	uint64  m_sumTick = 0;
+	Vector<Pos>  m_path;			// {(1,1), (2,2), (3,3)}
+	int32		 m_pathIndex = 0;
+	uint64		 m_sumTick = 0;
 };
 

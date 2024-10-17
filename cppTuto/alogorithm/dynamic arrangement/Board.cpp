@@ -77,7 +77,7 @@ void Board::GenerateMap()
 				continue;
 			}
 
-			// 1/2 È®·ü·Î º® ¶Õ±â 
+			// 1/2 È®·ü·Î ¾Æ·¡ È¤Àº ¿ÞÂÊ º® ¶Õ±â 
 			const int32 randValue = ::rand() % 2;
 			if (randValue == 0)
 				m_tile[y][x + 1] = TileType::EMPTY;

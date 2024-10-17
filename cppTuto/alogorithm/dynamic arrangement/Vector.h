@@ -1,77 +1,101 @@
-#pragma once
+ï»¿#pragma once
 #include <assert.h>
 
+template<typename T>
 class Vector
 {
-	using T = Pos;
-
 public:
-	explicit Vector(){
-		
+	explicit Vector()
+	{
 	}
 
-	~Vector() {
-		if(m_buffer)
-			delete[] m_buffer;
+	~Vector()
+	{
+		if (_buffer)
+			delete[] _buffer;
 	}
 
-	void PushBack(const T& data) {
-		// TODO : 
-		if (m_size == m_capacity) {
-			// Áõ¼³ ÀÛ¾÷
-			int newCapacity = static_cast<int>(m_capacity * 1.5);
-			if (newCapacity == m_capacity) newCapacity++;
+	void clear()
+	{
+		// TODO
+		if (_buffer)
+		{
+			delete[] _buffer;
+			_buffer = new T[_capacity];
+		}
+
+		_size = 0;
+	}
+
+	void push_back(const T& data)
+	{
+		// TODO
+		if (_size == _capacity)
+		{
+			// ï¿½ï¿½ï¿½ï¿½ ï¿½Û¾ï¿½
+			int newCapacity = static_cast<int>(_capacity * 1.5);
+			if (newCapacity == _capacity)
+				newCapacity++;
 
 			reserve(newCapacity);
 		}
 
-		// µ¥ÀÌÅÍ ÀúÀå
-		m_buffer[m_size] = data;
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		_buffer[_size] = data;
 
-		// µ¥ÀÌÅÍ °³¼ö Áõ°¡
-		m_size++;
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		_size++;
 	}
 
-	void Clear() {
-		if (m_buffer)
-		{
-			delete[] m_buffer;
-			m_buffer = new T[m_capacity];
-		}
-	}
-	void pop_back() {
-
-	}
-	T& back() {
-
-	}
-	void reserve(int capacity) {
-		if (m_capacity >= capacity) return;
-
-		m_capacity = capacity;
-
-		T* newData = new T[m_capacity];
-
-		// µ¥ÀÌÅÍ º¹»ç
-		for (int i = 0; i < m_size; i++)
-			newData[i] = m_buffer[i];
-
-		if (m_buffer) delete m_buffer;
-
-		m_buffer = newData;
+	void pop_back()
+	{
+		// TODO : ï¿½Ò¸ï¿½
+		_size--;
 	}
 
-	T& operator[](int index) {
-		assert(index >= 0 && index < m_size);
-		return m_buffer[index];
+	T& back()
+	{
+		return _buffer[_size - 1];
 	}
 
-	int GetSize() { return m_size; }
-	int GetCapacity() { return m_capacity; }
+	// size ë§Œí¼ 
+	void resize(int size)
+	{
+		// TODO
+		reserve(size);
+		_size = size;
+	}
+
+	void reserve(int capacity)
+	{
+		if (_capacity >= capacity)
+			return;
+
+		_capacity = capacity;
+
+		T* newData = new T[_capacity];
+
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		for (int i = 0; i < _size; i++)
+			newData[i] = _buffer[i];
+
+		if (_buffer)
+			delete[] _buffer;
+
+		_buffer = newData;
+	}
+
+	T& operator[](int index)
+	{
+		assert(index >= 0 && index < _size);
+		return _buffer[index];
+	}
+
+	int size() { return _size; }
+	int capacity() { return _capacity; }
 
 private:
-	T*		m_buffer = nullptr;
-	int		m_size = 0;
-	int		m_capacity = 0;
+	T* _buffer = nullptr;
+	int		_size = 0;
+	int		_capacity = 0;
 };
-

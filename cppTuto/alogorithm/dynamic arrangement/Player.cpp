@@ -12,7 +12,7 @@ void Player::Init(Board* board)
 
 void Player::Update(uint64 deltaTick)
 {
-	if (m_pathIndex >= m_path.GetSize())
+	if (m_pathIndex >= m_path.size())
 		return;
 
 	m_sumTick += deltaTick;
@@ -36,21 +36,13 @@ void Player::CalculatePath()
 {
 	Pos pos = m_pos;
 
-	m_path.Clear();
-	m_path.PushBack(pos);
+	m_path.clear();
+	m_path.push_back(pos);
 
 	// 목적지
-	Pos dest = m_board->GetExitPos();
+	Pos dest = m_board->GetExitPos();		
 
-	/*for (int i = 0; i < 10; i++)
-	{
-		pos += Pos(1, 0);
-		m_path.PushBack(pos);
-	}*/
-
-	m_dir;	// 내가 바라보는 방향
-	pos;	// 현재 좌표
-
+	// Up에서 Left로 회전해야 한다 => enum Dir의 인덱스 증가하는 방향
 	// 내가 바라보는 방향 기준 앞에 있는 좌표 구하기
 	Pos front[4] =
 	{
@@ -58,38 +50,44 @@ void Player::CalculatePath()
 		Pos(0, -1),	// LEFT
 		Pos(1, 0),	// DOWN
 		Pos(0, 1)	// RIGHT
-	};
-	Pos next = pos + front[m_dir];
+	};	
 
-	// Up에서 Left로 회전해야 한다 => enum Dir의 인덱스 증가하는 방향
-	// 오른쪽 방향 90도 회전
+	// 내가 바라보는 방향 기준 앞에 있는 좌표?
+	Pos next = pos + front[m_dir];
+	// 오른쪽 방향으로 90도 회전
 	m_dir = (m_dir - 1) % DIR_COUNT;
-	// 왼쪽 방향 90도 회전
+	// 오른쪽 방향으로 90도 회전
 	m_dir = (m_dir + 1) % DIR_COUNT;
 
-
-	return;
 	// 목적지 찾을 때까지
 	while (pos != dest)
 	{
 		// 1. 현재 바라보는 방향 기준으로, 오른쪽으로 갈 수 있는지 확인.
-		int32 newDir; // =?
-		if (CanGo(pos + front[newDir])) {
+		int32 newDir = (m_dir - 1 + DIR_COUNT) % DIR_COUNT;
+		if (CanGo(pos + front[newDir]))
+		{
 			// 오른쪽 방향으로 90도 회전
+			m_dir = newDir;
 
 			// 앞으로 한 보 전진
+			pos += front[m_dir];
 
 			// 좌표 기록
+			m_path.push_back(pos);
 		}
 		// 2. 현재 바라보는 방향을 기준으로 전진할 수 있는지 확인
-		else if(true){ //CanGo(??){
+		else if (CanGo(pos + front[m_dir]))
+		{
 			// 앞으로 한 보 전진
+			pos += front[m_dir];
 
 			// 좌표
-			// m_path.push_back(pos);
+			m_path.push_back(pos);
 		}
-		else {
+		else
+		{
 			// 왼쪽 방향으로 90도 회전
+			m_dir = (m_dir + 1) % DIR_COUNT;
 		}
 	}
 }
