@@ -11,6 +11,9 @@ using namespace std;
 
 // DFS (depth first search) = 재귀함수, 스택
 
+// BFS (넓이) = 큐 : 입구에서 가장 가까운 곳부터 돌아다니겠다.
+// 먼저 만난 걸 먼저 접근한다. 큐(선입선출)과 유사
+
 struct Vertex {
     // int data;
 };
@@ -19,40 +22,61 @@ vector<Vertex> vertices;
 vector<vector<int >> adjacent;
 vector<bool> visited;
 
-void DfsAll()
-{
-    visited = vector<bool>(6, false);
+// 발견한
+vector<bool> discorvered;
 
-    for (int i = 0; i < 6; i++)
+void Bfs(int here) {    
+
+    // ex) 누구에 의해서 발견되었는지?
+    vector<int> parent(6, -1);
+    // ex) 시작점에서 얼만큼 떨어져 있는지?
+    vector<int> dist(6, -1);
+
+    // 큐에 삽입
+    queue<int> q;
+    q.push(here);
+    discorvered[here] = true;
+    
+    parent[here] = here;
+    dist[here] = 0;
+
+    // 스캔을 끝내서 더 이상 새로운 걸 발견하지 못할 경우에 while 끝
+    while (q.empty()== false)
     {
-        if (visited[i] == false)
+        here = q.front();
+        q.pop();
+
+        // 방문 도장
+        cout << "Visited : " << here << endl;
+
+        for (int there = 0; there < 6; there++)
         {
-            Dfs(i);
-            cout << "Hi" << endl;
+            if (adjacent[here][there] == 0)
+                continue;
+            if (discorvered[there])
+                continue;
+
+            q.push(there);
+            discorvered[there] = true;
+
+            parent[there] = here;
+            dist[there] = dist[here] + 1;
         }
+
+        //int size = adjacent[here].size();
+        //for (int i = 0; i < size; i++)
+        //{
+        //    // 이미 내가 다른 경로에서 발견했으면 무시하고 간다.
+        //    // 0번을 방문하다 1, 3번을 방문해서 무시함.
+        //    int there = adjacent[here][i];
+        //    if (discorvered[there])
+        //        continue;
+
+        //    q.push(there);
+        //    discorvered[there] = true;
+        //}        
     }
 }
-void CreateGraph1() {
-    vertices.resize(6);
-
-    // 인접 리스트
-    /*adjacent = vector<vector<int>>(6);
-    adjacent[0] = { 1, 3 };
-    adjacent[1] = { 0,2, 3 };
-    adjacent[3] = { 4 };
-    adjacent[5] = { 4 };*/
-
-    // 인접 행렬
-    adjacent = vector<vector<int>>{
-        {0, 1, 0, 1, 0, 0},
-        {1, 0, 1, 1, 0, 0},
-        {0, 0, 0, 0, 0, 0},
-        {0, 0, 0, 0, 1, 0},
-        {0, 0, 0, 0, 0, 0},
-        {0, 0, 0, 0, 1, 0},
-    };
-}
-
 void Dfs(int here) {
     // 방문 도장
     visited[here] = true;
@@ -88,14 +112,49 @@ void Dfs(int here) {
             Dfs(there);
     }
 }
+void DfsAll()
+{
+    visited = vector<bool>(6, false);
+
+    for (int i = 0; i < 6; i++)
+    {
+        if (visited[i] == false)
+        {
+            Dfs(i);
+            cout << "Hi" << endl;
+        }
+    }
+}
+void CreateGraph1() {
+    vertices.resize(6);
+
+    // 인접 리스트
+    /*adjacent = vector<vector<int>>(6);
+    adjacent[0] = { 1, 3 };
+    adjacent[1] = { 0,2, 3 };
+    adjacent[3] = { 4 };
+    adjacent[5] = { 4 };*/
+
+    // 인접 행렬
+    adjacent = vector<vector<int>>{
+        {0, 1, 0, 1, 0, 0},
+        {1, 0, 1, 1, 0, 0},
+        {0, 0, 0, 0, 0, 0},
+        {0, 0, 0, 0, 1, 0},
+        {0, 0, 0, 0, 0, 0},
+        {0, 0, 0, 0, 1, 0},
+    };
+}
+
+
 int main()
 {
     CreateGraph1();
 
-    visited = vector<bool>(6, false);
+    // visited = vector<bool>(6, false);
 
-    Dfs(0);
-    // 0 -> 1 -> 2 -> 3 -> 4
-    //
+    discorvered = vector<bool>(6, false);
+    //Dfs(0);
+    Bfs(0);
 
 }
