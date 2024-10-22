@@ -29,7 +29,7 @@ public:
 
 	Pos				GetEnterPos() { return Pos(1, 1); }
 	Pos				GetExitPos() { return Pos(m_size - 2, m_size - 2); }
-
+	int32			GetSize() { return m_size; }
 private:
 	TileType	m_tile[BOARD_MAX_SIZE][BOARD_MAX_SIZE];
 	int32		m_size = 0;

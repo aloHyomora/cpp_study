@@ -1,6 +1,7 @@
 #pragma once
 #include "Vector.h"
-
+#include <vector>
+#include <queue>
 class Board;
 
 class Player
@@ -19,7 +20,8 @@ public:
 	bool CanGo(Pos pos);
 
 private:
-	void CalculatePath();
+	void CalculatePath_RightHand();
+	void CalculatePath_BFS();
 
 private:
 	Pos		m_pos;
@@ -27,7 +29,8 @@ private:
 	Board*  m_board = nullptr;
 
 	// 동적 배열 (플레이어가 이동할 좌표를 넣음)
-	Vector<Pos>  m_path;			// {(1,1), (2,2), (3,3)}
+	vector<Pos>  m_path;			// {(1,1), (2,2), (3,3)}
+
 	int32		 m_pathIndex = 0;
 	uint64		 m_sumTick = 0;
 };

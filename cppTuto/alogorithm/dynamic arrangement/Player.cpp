@@ -7,7 +7,8 @@ void Player::Init(Board* board)
 	m_pos = board->GetEnterPos();
 	m_board = board;
 
-	CalculatePath();
+	// CalculatePath_RightHand();
+	CalculatePath_BFS();
 }
 
 void Player::Update(uint64 deltaTick)
@@ -32,7 +33,7 @@ bool Player::CanGo(Pos pos)
 }
 
 // 우수법 (
-void Player::CalculatePath()
+void Player::CalculatePath_RightHand()
 {
 	Pos pos = m_pos;
 
@@ -92,4 +93,80 @@ void Player::CalculatePath()
 			m_dir = (m_dir + 1) % DIR_COUNT;
 		}
 	}
+}
+
+// 너비 우선 탐색
+void Player::CalculatePath_BFS()
+{
+	// 정점, 간선을 어떻게 표현할 건지 결정
+	// 간선 : 정점끼리의 연결
+	// 이미 Map의 정보 만으로도 연결을 확인할 수 있으므로 신경쓰지 않는다.
+
+	Pos pos = m_pos;
+	
+	// 목적지
+	Pos dest = m_board->GetExitPos();	
+
+	Pos front[4] =
+	{
+		Pos(-1, 0), // UP
+		Pos(0, -1), // LEFT
+		Pos(1, 0), // DOWN
+		Pos(0, 1), // RIGHT
+	};
+
+	const int32 size = m_board->GetSize();
+
+	// 어디를 다녀갔는지 discorvered, 2차원 배열
+	vector<vector<bool>> discorvered(size, vector<bool>(size, false));
+	
+	// extra info (어떤 경로를..)
+	// parent[y][x] = pos -> (y, x)는 Pos에 의해 발견됨. 
+	vector<vector<Pos>> parent(size, vector<Pos>(size, Pos(-1, -1)));
+
+	queue<Pos> q;
+	q.push(pos);
+	discorvered[pos.y][pos.x] = true;
+	parent[pos.y][pos.x] = pos; // 시작점은 내 자신
+
+	while (q.empty() == false)
+	{
+		pos = q.front();
+		q.pop();
+
+		// 목적지 도착
+		if (pos == dest)
+			break;
+
+		for (int32 dir = 0; dir < DIR_COUNT; dir++)
+		{
+			Pos nextPos = pos + front[dir];
+			// 갈 수 있는 지역이 맞는지 확인
+			if (CanGo(nextPos) == false)
+				continue;
+			// 이미 다른 경로에 의해 발견한 지역인지 확인
+			if (discorvered[nextPos.y][nextPos.x])
+				continue;
+
+			q.push(nextPos);
+			discorvered[nextPos.y][nextPos.x] = true;
+			parent[nextPos.y][nextPos.x] = pos; 
+		}
+	}
+
+	m_path.clear();
+	pos = dest;
+	
+	while (true)
+	{
+		m_path.push_back(pos);
+		
+		// 시작점
+		if (pos == parent[pos.y][pos.x])
+			break;
+
+		pos = parent[pos.y][pos.x];
+	}
+
+	reverse(m_path.begin(), m_path.end());
 }
