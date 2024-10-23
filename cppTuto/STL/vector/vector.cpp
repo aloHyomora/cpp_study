@@ -3,7 +3,7 @@
 using namespace std;
 
 #include <vector>
-
+#include <list>
 // 특정 기준에 의해 정렬됨 -> 연관 컨테이너
 
 int main()
@@ -118,10 +118,42 @@ int main()
     }
 #pragma endregion
     
-#pragma region iterator2
+#pragma region list
+    // 노드 기반
+
+    // size (resize)
+    // capacity (reserve)
+    // 삽입/ 삭제
+    // - 시작 0(1)
+    // - 중간 0(1) << 조건부
+    // - 끝   0(1)
+    // front 0(1), back0(1), push_front0(1), push_back0(1)
+    // remove
+
+    list<int> li{ 1,2,3,4,5 };
+    
+    li.push_front(100);
+    li.push_back(101);
+
+    li.insert(li.end(), 1);
+
+    list<int>::iterator it = li.insert(li.end(), 1);
+
+    // 순회
+    for (list<int>::iterator it1 = li.begin(); it != li.end(); it++)
     {
-        
+        int value = *it1;
+        if (value == 3) break;
+        cout << value << endl;
     }
+
+    // end 까지 순회하지 않았다. 중간에 탈출했다.
+    if (it != li.end())
+    {
+
+    }
+
+
 
 #pragma endregion
     
