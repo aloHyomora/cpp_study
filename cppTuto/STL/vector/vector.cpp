@@ -191,6 +191,33 @@ int main()
 
 
 #pragma endregion
+
+#pragma region rangebasedfor
+
+    vector<int> v{ 1,2,3,4,5 };
+
+    for (int i = 0; i < v.size(); i++)
+    {
+        v[i] = 100;
+    }
+    /*for (auto i = 0; i <; i++)
+    {
+
+    }*/
+    for (int data : v) {
+        cout << data << endl;
+    }
+
+    // &를 붙여 불필요한 복사를 방지한다. 원본을 건드릴 때도 의미가 있다.
+    for (int& data : v) {
+        cout << data << endl;
+    }
+
+
+#pragma endregion
 }
 
+class Inventory {
+public:
 
+};
