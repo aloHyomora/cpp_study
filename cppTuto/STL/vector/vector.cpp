@@ -156,7 +156,41 @@ int main()
 
 
 #pragma endregion
-    
+ 
+#pragma region auto
+    // auto
+    // 장점
+    // - 템플릿이랑 엮어서 사용할 때 유용
+    // - 타이핑(::iterator)같은 타이핑 낭비가 줄어든다.
+    // 단점
+    // - 가독성이 좋지 않다.
+    {
+        int a = 3;
+        double c = 123.324;
+        const char* e = "alohyomora";
+    }
+    {
+        auto a = 3;
+        auto c = 123.324;
+        auto e = "alohyomora";
+    }
+
+    // auto는 일종의 조커 카드
+    // 형식 연역(type deduction) -> 예측한다. 때려맞춘다.
+
+    int a = 3;
+    int& ref = a;
+    const int cst = a;
+    // 주의! auto는 const, &는 떼고 추론한다.
+    auto ref2 = ref;
+    auto cst2 = cst;
+
+    // &, const를 붙여 컴파일러에게 알려준다.
+    auto& ref3 = ref;
+    const auto cst3 = cst;
+
+
+#pragma endregion
 }
 
 
