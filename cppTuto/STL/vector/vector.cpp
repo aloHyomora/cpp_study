@@ -215,9 +215,39 @@ int main()
 
 
 #pragma endregion
+
+#pragma region BinarySearch
+    // Q) 82가 존재하나요?
+    // [1][][][][][][][][][][]
+
+    // 이진 탐색(범위를 반씩 줄여가며 찾아가는 방식) -> 0(logN)
+    // - 벡터로 정렬이 되어 있다면?    
+    vector<int> numbers = { 1,3,56,66,78,99 };
+    BinarySearch(66, numbers);
+
+    // 리스트로는 바이너리 서치가 불가능함. 
+
+#pragma endregion
 }
 
-class Inventory {
-public:
+void BinarySearch(int n, vector<int> nums) {
+    int left = 0;
+    int right = nums.size() - 1;
 
-};
+    while (left <= right)
+    {
+        cout << "탐색 범위 : " << left << "~" << right << endl;
+        
+        int mid = (left + right) / 2;
+
+        if (n < nums[mid]) {
+
+        }
+        else if(n > nums[mid]) {
+
+        }
+        else {
+            break;
+        }
+    }
+}
