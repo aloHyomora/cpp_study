@@ -79,6 +79,10 @@ int main()
 
 	// 문자는 무조건 1바이트다. 는 틀렸다.
 
+
+	// 4) MBCS(Multi byte character set) vs WBCS(Wide Byte Character Set)
+	// - 멀티바이트 집합 : 가변 길이 인코딩		-> utf8 같이 언어 별로 바이트 수가 다름
+	// - 유니코드 집합	 : 고정 길이 인코딩		-> utf16 같이 언어 별 바이트 수가 같음
 	setlocale(LC_ALL, "");
 	cout << "LC_ALL: " << setlocale(LC_ALL, NULL) << endl;	// 윈도우 언어가 한글
 
@@ -91,4 +95,9 @@ int main()
 	cout << test3 << endl;
 
 	auto test4 = u"aaa김효입니다";
+
+	// 2바이트 짜리 캐릭터, 2바이터 짜리 char이 뭉쳐있는 문자열
+	wchar_t ch = L'김';
+	wstring name5 = L"aaa김입니다.";
+	wcout << name5 << endl;
 }
