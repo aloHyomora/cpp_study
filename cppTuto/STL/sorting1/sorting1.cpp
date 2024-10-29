@@ -145,6 +145,44 @@ void MergeResult(vector<int>& v, int left, int mid, int right) {
 	}
 }
 #pragma endregion
+#pragma region QuickSort
+// 평균적으로 0(NlogN), 극단적으로 가면.. N^2
+// 중간값이 정해지고 반반?
+// Pivot의 위치 찾기
+int Partition(vector<int>& v, int left, int right) {
+	int pivot = v[left];
+	int low = left + 1;
+	int high = right;
+	
+	// 0(N) N을 초과할 수 없다.
+	// 순서가 뒤바뀌기 전까지
+	while (low <= high)
+	{
+		// pivot이 low가 가리키는 수보다 큰 경우 찾기
+		while (low <= right && pivot >= v[low])
+			low++;
+
+		while (high >= left + 1 && pivot <= v[high])
+			high--;
+
+		if (low < high)
+			swap(v[low], v[high]);
+	}
+
+	swap(v[left], v[high]);
+
+	// 고정되는 중간값 반환
+	return high;
+}
+void QuickSort(vector<int>& v, int left, int right) {
+
+	if (left > right) return;
+
+	int pivot = Partition(v, left, right);
+	QuickSort(v, left, pivot - 1);
+	QuickSort(v, pivot + 1, right);
+}
+#pragma endregion
 int main()
 {
 	vector<int> v{ 1,3,4,5,2 };
@@ -153,5 +191,8 @@ int main()
 	//SelectionSort(v);
 	//HeapSort(v);
 
-	MergeSort(v, 0, v.size() - 1);
+	// MergeSort(v, 0, v.size() - 1);
+
+	QuickSort(v, 0, v.size() - 1);
+
 }
