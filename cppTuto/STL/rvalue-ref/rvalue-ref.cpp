@@ -25,11 +25,18 @@ public:
 
     // 이동 생성자
     // 이동 대입 생성자
-
+    void Attack() {
+        if (m_target)
+            m_target->m_hp -= m_damage;
+    }
 public:
     int m_hp = 0;
+    int m_damage = 10;
+    Knight* m_target = nullptr;
+
 };
 
+#pragma region R-Value Method
 // 복사 (Knight가 크면 비효율적)
 void TestKnight_Copy(Knight knight) {
 
@@ -46,6 +53,17 @@ void TestKnight_ConstLValueRef(const Knight& knight) {
 void TestKnight_RValueRef(Knight&& knight) {
     // knight.m_hp = 0;
 }
+#pragma endregion
+
+template<typename T>
+class SharedPtr {
+public:
+    SharedPtr(T* ptr) : _ptr(ptr) {}
+
+public:
+    T* _ptr;
+    int _refCount = 1;
+};
 int main()
 {
 #pragma region R-Value
@@ -72,5 +90,29 @@ int main()
     // k2 = static_cast<Knight&&>(k1);
     k2 = std::move(k1);
 #pragma endregion
+
+#pragma region shared_ptr
+    Knight* k3 = new Knight();
+    Knight* k4 = new Knight();
+
+    /*k3->m_target = k4;
+    delete k4;
+    k3->Attack();*/
+    
+    // 사용하고 있는데 지운 게 문제
+    // => 사용하고 있는 걸 추적할 수 있다면 좋겠다.
+
+#pragma endregion
+
+#pragma region weak_ptr
+
+
+#pragma endregion
+
+#pragma region unique_ptr
+
+
+#pragma endregion
+
 }
 
