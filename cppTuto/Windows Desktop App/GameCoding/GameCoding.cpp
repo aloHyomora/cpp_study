@@ -1,8 +1,9 @@
 ﻿// GameCoding.cpp : 애플리케이션에 대한 진입점을 정의합니다.
 //
-
+#include "pch.h"
 #include "framework.h"
 #include "GameCoding.h"
+#include "Game.h"
 
 #define MAX_LOADSTRING 100
 
@@ -10,6 +11,7 @@
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
 WCHAR szTitle[MAX_LOADSTRING];                  // 제목 표시줄 텍스트입니다.
 WCHAR szWindowClass[MAX_LOADSTRING];            // 기본 창 클래스 이름입니다.
+HWND g_hWnd;
 
 int mousePosX;
 int mousePosY;
@@ -46,19 +48,33 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         return FALSE;
     }
 
+    Game game;
+    game.Init(g_hWnd);
+
     // 단축기 제거
     // HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_GAMECODING));
 
-    MSG msg;
+    MSG msg = {};
+    uint64 prevTick = 0;
 
     // 3) Main Loop  ======================= 중요 =====
     // 입력 -> 로직 -> 렌더링
     // 기본 메시지 루프입니다:
-    while (::GetMessage(&msg, nullptr, 0, 0))
+    while (msg.message != WM_QUIT)
     {
-        ::TranslateMessage(&msg);
-        ::DispatchMessage(&msg);
-       
+        if (::PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)) {
+            ::TranslateMessage(&msg);
+            ::DispatchMessage(&msg);          
+        }
+        else {
+            // 게임
+            uint64 now = ::GetTickCount64();
+            if (now - prevTick >= 10) {
+                game.Update();
+                game.Render();
+            }
+            prevTick = now;
+        }              
     }
 
     return (int) msg.wParam;
@@ -113,6 +129,8 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    HWND hWnd = CreateWindowW(L"GameCoding", szTitle, WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, windowRect.right - windowRect.left, windowRect.bottom - windowRect.top, nullptr, nullptr, hInstance, nullptr);
 
+   g_hWnd = hWnd;
+
    if (!hWnd)
    {
       return FALSE;
@@ -162,23 +180,23 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             HDC hdc = ::BeginPaint(hWnd, &ps);
             // TODO: 여기에 hdc(도화지)를 사용하는 그리기 코드를 추가합니다...
 
-            // 문자 그리기
-            WCHAR buffer[100];
-            ::wsprintf(buffer, L"(%d, %d)", mousePosX, mousePosY);
-            ::TextOut(hdc, 100, 100, buffer, ::wcslen(buffer));
+            //// 문자 그리기
+            //WCHAR buffer[100];
+            //::wsprintf(buffer, L"(%d, %d)", mousePosX, mousePosY);
+            //::TextOut(hdc, 100, 100, buffer, ::wcslen(buffer));
 
-            // 사각형
-            ::Rectangle(hdc, 200, 200, 400, 400);
+            //// 사각형
+            //::Rectangle(hdc, 200, 200, 400, 400);
 
-            // 원
-            ::Ellipse(hdc, 200, 200, 400, 400);
+            //// 원
+            //::Ellipse(hdc, 200, 200, 400, 400);
 
-            // 선
-            ::MoveToEx(hdc, 300, 300, nullptr);
-            ::LineTo(hdc, 400, 400);
-            ::LineTo(hdc, 600, 400);
+            //// 선
+            //::MoveToEx(hdc, 300, 300, nullptr);
+            //::LineTo(hdc, 400, 400);
+            //::LineTo(hdc, 600, 400);
 
-            EndPaint(hWnd, &ps);
+            //EndPaint(hWnd, &ps);
         }
         break;
     case WM_MOUSEMOVE:        

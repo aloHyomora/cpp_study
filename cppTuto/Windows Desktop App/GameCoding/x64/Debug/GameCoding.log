@@ -1,3 +1,5 @@
-﻿  GameCoding.cpp
-C:\Users\aloho\Documents\GitHub\cpp_study\cppTuto\Windows Desktop App\GameCoding\GameCoding.cpp(167,62): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  Game.cpp
+C:\Users\aloho\Documents\GitHub\cpp_study\cppTuto\Windows Desktop App\GameCoding\Game.cpp(45,9): warning C4101: 'buffer' :참조되지 않은 지역 변수입니다.
+  InputManager.cpp
+  코드를 생성하고 있습니다...
   GameCoding.vcxproj -> C:\Users\aloho\Documents\GitHub\cpp_study\cppTuto\Windows Desktop App\GameCoding\x64\Debug\GameCoding.exe
