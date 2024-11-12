@@ -8,12 +8,14 @@ void SceneManager::Init()
 
 void SceneManager::Update()
 {
-	_scene->Update();
+	if (_scene)
+		_scene->Update();
 }
 
 void SceneManager::Render(HDC hdc)
 {
-	_scene->Render(hdc);
+	if(_scene)
+		_scene->Render(hdc);
 }
 
 void SceneManager::Clear()

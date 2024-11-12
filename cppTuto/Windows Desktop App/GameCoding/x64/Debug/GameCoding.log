@@ -1,7 +1,3 @@
-﻿  DevScene.cpp
-  Game.cpp
-E:\cpp_study\cppTuto\Windows Desktop App\GameCoding\Game.cpp(52,9): warning C4101: 'buffer' :참조되지 않은 지역 변수입니다.
-  InputManager.cpp
-  SceneManager.cpp
-  코드를 생성하고 있습니다...
+﻿  Game.cpp
+E:\cpp_study\cppTuto\Windows Desktop App\GameCoding\Game.cpp(60,9): warning C4101: 'buffer' :참조되지 않은 지역 변수입니다.
   GameCoding.vcxproj -> E:\cpp_study\cppTuto\Windows Desktop App\GameCoding\x64\Debug\GameCoding.exe
