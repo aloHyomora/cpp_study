@@ -13,3 +13,13 @@
 using namespace std;
 
 #include <format>
+
+
+// 메모리 추적하기
+#define _CRTDEBG_MAP_ALLOC
+#include <cstdlib>
+#include <crtdbg.h>
+
+#ifdef _DEBUG
+#define new new(_NORMAL_BLOCK, __FILE__, __LINE__)
+#endif 
