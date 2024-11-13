@@ -19,8 +19,9 @@ public:
 	virtual void Render(HDC hdc) abstract;
 
 public:
-	Pos SetPos() { return _pos; }
+	Pos GetPos() { return _pos; }
 	void SetPos(Pos pos) { _pos = pos; }
+	ObjectType GetObjectType() { return _type; }
 
 protected:
 	ObjectType _type = ObjectType::None;
