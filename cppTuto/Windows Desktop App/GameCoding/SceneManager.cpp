@@ -2,6 +2,7 @@
 #include "SceneManager.h"
 #include "DevScene.h"
 #include "GameScene.h"
+#include "EditScene.h"
 void SceneManager::Init()
 {
 }
@@ -38,6 +39,10 @@ void SceneManager::ChangeScene(SceneType sceneType)
 	case SceneType::GameScene:
 		newScene = new GameScene();
 		break;	
+
+	case SceneType::EditScene:
+		newScene = new EditScene();
+		break;
 	}
 
 	SAFE_DELETE(_scene);
