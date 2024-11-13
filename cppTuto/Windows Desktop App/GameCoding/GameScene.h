@@ -13,5 +13,9 @@ public:
 public:
 	// TEST
 	Pos _playerPos = { 300, 300 };
+
+private:
+	// class Player* _player = nullptr;
+	
 };
 
