@@ -1,125 +1,145 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\",
+  "WorkspaceRootPath": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\LineMesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:LineMesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\LineMesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:LineMesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\LineMesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:LineMesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\LineMesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:LineMesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:ResourceBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:ResourceBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\EditScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\EditScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:EditScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\EditScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\EditScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:EditScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ObjectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ObjectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:ObjectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Missile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Missile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Missile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ObjectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ObjectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:ObjectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Missile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Missile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Missile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\DevScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\DevScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:DevScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:InputManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\TimeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\TimeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:TimeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameCoding.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameCoding.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:GameCoding.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameCoding.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       ) \u008D 2$  \u0022     ",
+      "AbsoluteMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameCoding.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       ) \u008D 2$  \u0022     ",
       "RelativeMoniker": "D:0:0:{97337605-DCB6-4044-A705-D5701217E042}|GameCoding.vcxproj|solutionrelative:GameCoding.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       ) \u008D 2$  \u0022     "
     }
   ],
@@ -130,15 +150,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 186,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "Defines.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Defines.h",
+              "RelativeDocumentMoniker": "Defines.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Defines.h",
+              "RelativeToolTip": "Defines.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-15T06:19:18.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "LineMesh.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\LineMesh.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\LineMesh.h",
               "RelativeDocumentMoniker": "LineMesh.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\LineMesh.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\LineMesh.h",
               "RelativeToolTip": "LineMesh.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -147,76 +180,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "EditScene.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\EditScene.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\EditScene.h",
               "RelativeDocumentMoniker": "EditScene.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\EditScene.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\EditScene.h",
               "RelativeToolTip": "EditScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T10:16:47.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T10:16:47.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ObjectManager.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ObjectManager.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ObjectManager.h",
               "RelativeDocumentMoniker": "ObjectManager.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ObjectManager.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ObjectManager.h",
               "RelativeToolTip": "ObjectManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T09:10:40.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T09:10:40.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Player.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Player.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Player.h",
               "RelativeToolTip": "Player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T08:27:52.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:27:52.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ResourceManager.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceManager.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceManager.h",
               "RelativeDocumentMoniker": "ResourceManager.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceManager.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceManager.h",
               "RelativeToolTip": "ResourceManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T10:46:24.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ResourceBase.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceBase.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceBase.h",
               "RelativeDocumentMoniker": "ResourceBase.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceBase.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceBase.h",
               "RelativeToolTip": "ResourceBase.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T10:42:44.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T10:42:44.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "Monster.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Monster.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Monster.h",
               "RelativeDocumentMoniker": "Monster.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Monster.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Monster.h",
               "RelativeToolTip": "Monster.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -224,37 +253,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "GameScene.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameScene.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameScene.h",
               "RelativeDocumentMoniker": "GameScene.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameScene.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameScene.h",
               "RelativeToolTip": "GameScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T09:02:01.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T09:02:01.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Enums.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Enums.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Enums.h",
               "RelativeDocumentMoniker": "Enums.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Enums.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Enums.h",
               "RelativeToolTip": "Enums.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-13T08:20:21.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:20:21.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Object.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Object.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Object.h",
               "RelativeDocumentMoniker": "Object.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Object.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Object.h",
               "RelativeToolTip": "Object.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -262,11 +289,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "Scene.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Scene.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Scene.h",
               "RelativeDocumentMoniker": "Scene.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Scene.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Scene.h",
               "RelativeToolTip": "Scene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -274,11 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Missile.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Missile.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Missile.h",
               "RelativeDocumentMoniker": "Missile.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Missile.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Missile.h",
               "RelativeToolTip": "Missile.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -286,11 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "GameCoding.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameCoding.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameCoding.h",
               "RelativeDocumentMoniker": "GameCoding.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameCoding.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameCoding.h",
               "RelativeToolTip": "GameCoding.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -298,12 +325,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "GameCoding.rc - IDC_GAMECODING - Accelerator",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameCoding.rc",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameCoding.rc",
               "RelativeDocumentMoniker": "GameCoding.rc",
               "ToolTip": "C:\\Users\\aloho\\Documents\\GitHub\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameCoding.rc - IDC_GAMECODING - Accelerator",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Documents\\GitHub\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameCoding.rc - IDC_GAMECODING - Accelerator",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\GitHub\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameCoding.rc - IDC_GAMECODING - Accelerator",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002870|",
               "WhenOpened": "2024-11-13T08:20:21.975Z"
             }
@@ -311,119 +338,165 @@
         },
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Types.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Types.h",
+              "RelativeDocumentMoniker": "Types.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Types.h",
+              "RelativeToolTip": "Types.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-15T06:40:38.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\pch.cpp",
+              "RelativeDocumentMoniker": "pch.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\pch.cpp",
+              "RelativeToolTip": "pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T06:40:37.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-15T06:28:23.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\pch.h",
+              "RelativeDocumentMoniker": "pch.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\pch.h",
+              "RelativeToolTip": "pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-15T06:25:49.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ResourceManager.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceManager.cpp",
               "RelativeDocumentMoniker": "ResourceManager.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceManager.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceManager.cpp",
               "RelativeToolTip": "ResourceManager.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-13T10:46:47.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "LineMesh.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\LineMesh.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\LineMesh.cpp",
               "RelativeDocumentMoniker": "LineMesh.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\LineMesh.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\LineMesh.cpp",
               "RelativeToolTip": "LineMesh.cpp",
               "ViewState": "AgIAADgAAAAAAAAAAAAhwEcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T10:44:28.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T10:44:28.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "SceneManager.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\SceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\SceneManager.cpp",
               "RelativeDocumentMoniker": "SceneManager.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\SceneManager.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\SceneManager.cpp",
               "RelativeToolTip": "SceneManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T10:23:36.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T10:23:36.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Game.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Game.cpp",
               "RelativeDocumentMoniker": "Game.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Game.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Game.cpp",
               "RelativeToolTip": "Game.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwC4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-13T10:23:05.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Player.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Player.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Player.cpp",
               "RelativeToolTip": "Player.cpp",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T08:29:15.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:29:15.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ResourceBase.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceBase.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceBase.cpp",
               "RelativeDocumentMoniker": "ResourceBase.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ResourceBase.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ResourceBase.cpp",
               "RelativeToolTip": "ResourceBase.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T10:42:49.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T10:42:49.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "EditScene.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\EditScene.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\EditScene.cpp",
               "RelativeDocumentMoniker": "EditScene.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\EditScene.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\EditScene.cpp",
               "RelativeToolTip": "EditScene.cpp",
               "ViewState": "AgIAAFcAAAAAAAAAAAAhwG0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T10:16:57.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T10:16:57.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Missile.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Missile.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Missile.cpp",
               "RelativeDocumentMoniker": "Missile.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Missile.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Missile.cpp",
               "RelativeToolTip": "Missile.cpp",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T08:43:54.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:43:54.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Monster.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Monster.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Monster.cpp",
               "RelativeDocumentMoniker": "Monster.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Monster.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Monster.cpp",
               "RelativeToolTip": "Monster.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -431,11 +504,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ObjectManager.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ObjectManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ObjectManager.cpp",
               "RelativeDocumentMoniker": "ObjectManager.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\ObjectManager.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\ObjectManager.cpp",
               "RelativeToolTip": "ObjectManager.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAhwBUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -443,24 +516,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "GameScene.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameScene.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameScene.cpp",
               "RelativeDocumentMoniker": "GameScene.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\GameScene.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\GameScene.cpp",
               "RelativeToolTip": "GameScene.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T09:01:51.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T09:01:51.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "Utils.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Utils.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Utils.h",
               "RelativeDocumentMoniker": "Utils.h",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Utils.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Utils.h",
               "RelativeToolTip": "Utils.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -468,11 +540,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "DevScene.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\DevScene.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\DevScene.cpp",
               "RelativeDocumentMoniker": "DevScene.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\DevScene.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\DevScene.cpp",
               "RelativeToolTip": "DevScene.cpp",
               "ViewState": "AgIAAAgAAAAAAAAAAAAhwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -480,11 +552,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "Object.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Object.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Object.cpp",
               "RelativeDocumentMoniker": "Object.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\Object.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\Object.cpp",
               "RelativeToolTip": "Object.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -492,11 +564,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "TimeManager.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\TimeManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\TimeManager.cpp",
               "RelativeDocumentMoniker": "TimeManager.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\TimeManager.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\TimeManager.cpp",
               "RelativeToolTip": "TimeManager.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -504,11 +576,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "InputManager.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\InputManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\InputManager.cpp",
               "RelativeDocumentMoniker": "InputManager.cpp",
-              "ToolTip": "C:\\Users\\aloho\\\uBB38\uC11C\\Github\\cpp_study\\cppTuto\\Windows Desktop App\\GameCoding\\InputManager.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppTutorial\\Windows Desktop App\\GameCoding\\InputManager.cpp",
               "RelativeToolTip": "InputManager.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
