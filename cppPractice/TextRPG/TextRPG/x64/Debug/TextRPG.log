@@ -1,11 +1,2 @@
-﻿  pch.cpp
-  BattleManager.cpp
-  Dragon.cpp
-  Enemy.cpp
-  GameManager.cpp
-  Goblin.cpp
-  Object.cpp
-  Player.cpp
-  TextRPG.cpp
-  코드를 생성하고 있습니다...
+﻿  Enemy.cpp
   TextRPG.vcxproj -> C:\Users\aloho\Github\cpp_study\cppPractice\TextRPG\x64\Debug\TextRPG.exe
