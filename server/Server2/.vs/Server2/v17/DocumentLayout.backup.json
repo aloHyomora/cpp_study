@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aloho\\Github\\cpp_study\\server\\Server2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5815BC01-56DB-4A57-8A91-760B8FDB74CD}|Server2.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\server\\Server2\\Server2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5815BC01-56DB-4A57-8A91-760B8FDB74CD}|Server2.vcxproj|solutionrelative:Server2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 184,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Server2.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\server\\Server2\\Server2.cpp",
+              "RelativeDocumentMoniker": "Server2.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\server\\Server2\\Server2.cpp",
+              "RelativeToolTip": "Server2.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T05:23:39.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
