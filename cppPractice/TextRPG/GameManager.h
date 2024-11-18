@@ -5,7 +5,7 @@
 class GameManager
 {
 public:
-	// DECLARE_SINGLE(GameManager); 싱글톤 사용이 필요없어 보임
+	DECLARE_SINGLE(GameManager); // 싱글톤 사용이 필요없어 보임
 
 
 public:

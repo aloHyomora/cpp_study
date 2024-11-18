@@ -12,10 +12,10 @@ public:
 	Object();
 	Object(ObjectType objectType);
 	virtual ~Object();
-public:
+protected:
 	ObjectType _type;
 	Stat GetStatInfo() { return _stat; }
 	Stat _stat = {};
-	
+	void PrintStatInfo();
 };
 

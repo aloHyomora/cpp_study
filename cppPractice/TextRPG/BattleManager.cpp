@@ -4,8 +4,10 @@
 #include "Enemy.h"
 #include "TurnHandler.h"
 
-void BattleManager::StartBattle(Player* player, Enemy* enemy)
+
+void BattleManager::StartBattle()
 {
+	cout << "===== Start Battle =====" << endl;
 }
 
 void BattleManager::EndBattle()

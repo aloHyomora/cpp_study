@@ -3,6 +3,8 @@
 
 Enemy::Enemy()
 {
+	cout << "Enemy »ı¼º" << endl;
+	PrintStatInfo();
 }
 
 Enemy::~Enemy()
