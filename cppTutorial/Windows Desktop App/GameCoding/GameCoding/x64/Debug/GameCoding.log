@@ -1,2 +1,8 @@
-﻿  ResourceManager.cpp
-  GameCoding.vcxproj -> C:\Users\aloho\문서\Github\cpp_study\cppTuto\Windows Desktop App\GameCoding\x64\Debug\GameCoding.exe
+﻿  GameScene.cpp
+  Missile.cpp
+  ObjectManager.cpp
+  Player.cpp
+  Utils.cpp
+  코드를 생성하고 있습니다...
+  LINK : C:\Users\aloho\Github\cpp_study\cppTutorial\Windows Desktop App\GameCoding\x64\Debug\GameCoding.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  GameCoding.vcxproj -> C:\Users\aloho\Github\cpp_study\cppTutorial\Windows Desktop App\GameCoding\x64\Debug\GameCoding.exe

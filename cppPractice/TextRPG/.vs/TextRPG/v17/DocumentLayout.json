@@ -3,48 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:BattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\ObjectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:ObjectManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:BattleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Goblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Goblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:TurnHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:TurnHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Goblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Goblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Dragon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:Dragon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:TurnHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:BattleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\ObjectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:ObjectManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:BattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:TurnHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:TextRPG.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DDBBAF3E-0D08-4568-BEC1-0FB1D4A86EE5}|TextRPG.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,95 +90,173 @@
       "DocumentGroups": [
         {
           "DockedWidth": 184,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TurnHandler.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.h",
-              "RelativeDocumentMoniker": "TurnHandler.h",
-              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.h",
-              "RelativeToolTip": "TurnHandler.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-15T10:41:32.877Z",
+              "DocumentIndex": 11,
+              "Title": "Dragon.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Dragon.cpp",
+              "RelativeDocumentMoniker": "Dragon.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Dragon.cpp",
+              "RelativeToolTip": "Dragon.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T16:21:45.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Object.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Object.h",
-              "RelativeDocumentMoniker": "Object.h",
-              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Object.h",
-              "RelativeToolTip": "Object.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-15T06:38:07.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "GameManager.h",
               "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.h",
               "RelativeDocumentMoniker": "GameManager.h",
               "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.h",
               "RelativeToolTip": "GameManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-15T06:17:21.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "BattleManager.h",
               "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.h",
               "RelativeDocumentMoniker": "BattleManager.h",
               "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.h",
               "RelativeToolTip": "BattleManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-15T06:32:23.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
+              "Title": "TurnHandler.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.h",
+              "RelativeDocumentMoniker": "TurnHandler.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.h",
+              "RelativeToolTip": "TurnHandler.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-15T10:41:32.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ObjectManager.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\ObjectManager.h",
+              "RelativeDocumentMoniker": "ObjectManager.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\ObjectManager.h",
+              "RelativeToolTip": "ObjectManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T15:40:13.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Object.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Object.h",
+              "RelativeDocumentMoniker": "Object.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Object.h",
+              "RelativeToolTip": "Object.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-15T06:38:07.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Enemy.h",
               "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Enemy.h",
               "RelativeDocumentMoniker": "Enemy.h",
               "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Enemy.h",
               "RelativeToolTip": "Enemy.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-15T06:38:44.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Goblin.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Goblin.h",
+              "RelativeDocumentMoniker": "Goblin.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Goblin.h",
+              "RelativeToolTip": "Goblin.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T16:24:11.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T16:17:13.347Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 184,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "pch.h",
-              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\pch.h",
-              "RelativeDocumentMoniker": "pch.h",
-              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\pch.h",
-              "RelativeToolTip": "pch.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-15T06:49:14.167Z",
+              "DocumentIndex": 3,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Player.cpp",
+              "RelativeDocumentMoniker": "Player.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T15:53:55.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.cpp",
+              "RelativeDocumentMoniker": "GameManager.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.cpp",
+              "RelativeToolTip": "GameManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T06:17:31.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BattleManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.cpp",
+              "RelativeDocumentMoniker": "BattleManager.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.cpp",
+              "RelativeToolTip": "BattleManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T06:32:32.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TurnHandler.cpp",
               "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TurnHandler.cpp",
               "RelativeDocumentMoniker": "TurnHandler.cpp",
@@ -155,20 +269,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BattleManager.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.cpp",
-              "RelativeDocumentMoniker": "BattleManager.cpp",
-              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\BattleManager.cpp",
-              "RelativeToolTip": "BattleManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ObjectManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\ObjectManager.cpp",
+              "RelativeDocumentMoniker": "ObjectManager.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\ObjectManager.cpp",
+              "RelativeToolTip": "ObjectManager.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAADgvxkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T06:32:32.775Z",
+              "WhenOpened": "2024-11-18T15:40:39.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\pch.h",
+              "RelativeDocumentMoniker": "pch.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\pch.h",
+              "RelativeToolTip": "pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-15T06:49:14.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TextRPG.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TextRPG.cpp",
+              "RelativeDocumentMoniker": "TextRPG.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TextRPG.cpp",
+              "RelativeToolTip": "TextRPG.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-15T06:08:53.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Defines.h",
               "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Defines.h",
               "RelativeDocumentMoniker": "Defines.h",
@@ -181,27 +321,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.cpp",
-              "RelativeDocumentMoniker": "GameManager.cpp",
-              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\GameManager.cpp",
-              "RelativeToolTip": "GameManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Object.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Object.cpp",
+              "RelativeDocumentMoniker": "Object.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Object.cpp",
+              "RelativeToolTip": "Object.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T06:17:31.418Z"
+              "WhenOpened": "2024-11-18T15:54:56.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Goblin.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Goblin.cpp",
+              "RelativeDocumentMoniker": "Goblin.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Goblin.cpp",
+              "RelativeToolTip": "Goblin.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T16:20:13.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TextRPG.cpp",
-              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TextRPG.cpp",
-              "RelativeDocumentMoniker": "TextRPG.cpp",
-              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\TextRPG.cpp",
-              "RelativeToolTip": "TextRPG.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Enemy.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\cppPractice\\TextRPG\\Enemy.cpp",
+              "RelativeToolTip": "Enemy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T06:08:53.633Z"
+              "WhenOpened": "2024-11-18T16:23:40.73Z",
+              "EditorCaption": ""
             }
           ]
         }

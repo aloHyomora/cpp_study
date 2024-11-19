@@ -55,7 +55,10 @@
       <Filter>소스 파일\99. Headers</Filter>
     </ClInclude>
     <ClInclude Include="TurnHandler.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\00. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>소스 파일\00. Game</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +90,9 @@
       <Filter>소스 파일\99. Headers</Filter>
     </ClCompile>
     <ClCompile Include="TurnHandler.cpp">
+      <Filter>소스 파일\00. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
       <Filter>소스 파일\00. Game</Filter>
     </ClCompile>
   </ItemGroup>
