@@ -9,15 +9,16 @@ Dragon::Dragon()
 
 Dragon::~Dragon()
 {
+	cout << "Dragon ¼Ò¸ê" << endl;	
 }
 
 void Dragon::Init()
 {
 	{
-		_stat.maxHp = 300;
-		_stat.hp = _stat.maxHp;
-		_stat.attack = 20;
-		_stat.defence = 10;
+		m_stat.maxHp = 300;
+		m_stat.hp = m_stat.maxHp;
+		m_stat.attack = 20;
+		m_stat.defence = 10;
 	}
 }
 

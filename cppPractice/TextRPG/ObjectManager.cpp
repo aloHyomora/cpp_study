@@ -20,6 +20,6 @@ void ObjectManager::CreateObjects()
 	cout << "오브젝트 생성중..." << endl;
 
 	// TOOD : 랜덤하게 변경
-	m_player = new Player(ObjectType::Player);
-	m_enemy = new Goblin(ObjectType::Enemy);
+	m_player = new Player();
+	m_enemy = new Goblin();
 }

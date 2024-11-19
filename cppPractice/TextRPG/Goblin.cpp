@@ -5,19 +5,21 @@ Goblin::Goblin()
 {
 	cout << "Goblin »ý¼º" << endl;
 	Init();
+	PrintStatInfo();
 }
 
 Goblin::~Goblin()
 {
+	cout << "Goblin ¼Ò¸ê" << endl;
 }
 
 void Goblin::Init()
 {
 	{
-		_stat.maxHp = 50;
-		_stat.hp = _stat.maxHp;
-		_stat.attack = 10;
-		_stat.defence = 5;
+		m_stat.maxHp = 50;
+		m_stat.hp = m_stat.maxHp;
+		m_stat.attack = 10;
+		m_stat.defence = 5;
 	}
 }
 

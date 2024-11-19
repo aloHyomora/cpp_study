@@ -10,12 +10,16 @@ class Object
 {
 public:
 	Object();
-	Object(ObjectType objectType);
 	virtual ~Object();
+
 protected:
-	ObjectType _type;
-	Stat GetStatInfo() { return _stat; }
-	Stat _stat = {};
+	Stat m_stat;
+	ObjectType m_type;
+
+
+protected:
+	Stat GetStatInfo() const { return m_stat; }
+	ObjectType GetObjectType() const { return m_type; }
 	void PrintStatInfo();
 };
 

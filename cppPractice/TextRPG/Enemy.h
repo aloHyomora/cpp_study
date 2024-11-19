@@ -18,8 +18,7 @@ public:
 	Reward GetReward() { return _reward; }
 
 
-protected:
-	Stat _stat;
+protected:	
 	Reward _reward;	
 };
 

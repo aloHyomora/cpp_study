@@ -4,9 +4,16 @@
 Enemy::Enemy()
 {
 	cout << "Enemy »ı¼º" << endl;
-	PrintStatInfo();
+	Init();
+	// PrintStatInfo();
 }
 
 Enemy::~Enemy()
 {
+	cout << "Enemy ¼Ò¸ê" << endl;
+}
+
+void Enemy::Init()
+{
+	m_type = ObjectType::Enemy;
 }
