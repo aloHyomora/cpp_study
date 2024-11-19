@@ -23,3 +23,19 @@ void ObjectManager::CreateObjects()
 	m_player = new Player();
 	m_enemy = new Goblin();
 }
+
+Player* ObjectManager::GetPlayer()
+{
+	if (m_player) {
+		return m_player;
+	}
+	return nullptr;
+}
+
+Enemy* ObjectManager::GetEnemy()
+{
+	if (m_enemy) {
+		return m_enemy;
+	}
+	return nullptr;
+}

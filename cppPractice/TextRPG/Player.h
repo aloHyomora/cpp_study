@@ -7,8 +7,8 @@ public:
 	~Player() override;
 
 public:
-	void Init();
-	void Attack();
+	void Init();	
+	void TakeDamage(int damage) override;
 	void LevelUp();
 
 private:

@@ -7,10 +7,12 @@ public:
 	DECLARE_SINGLE(TurnHandler);
 
 	void Init();
+	void TrunStart();
+
 
 	int GetRoundNum() { return _roundNum; }
 
 private:
-	int _roundNum = 0;		// 라운드 인덱스
+	int _roundNum = 0;		
 };
 

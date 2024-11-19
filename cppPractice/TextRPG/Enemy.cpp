@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Enemy.h"
+#include "BattleManager.h"
 
 Enemy::Enemy()
 {
@@ -18,6 +19,16 @@ void Enemy::Init()
 	m_type = ObjectType::Enemy;
 }
 
-void Enemy::Attack()
+
+
+void Enemy::TakeDamage(int damage)
 {
+	// 부모 클래스에서 HP 감소 처리
+	Object::TakeDamage(damage);
+
+	if (m_stat.hp <= 0) {
+		std::cout << "Enemy has been defeated!" << std::endl;
+		GET_SINGLE(BattleManager)->m_battleInfo.isPlayerWin = true;
+		GET_SINGLE(BattleManager)->m_battleInfo.isBattleEnd = true;
+	}
 }

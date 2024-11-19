@@ -13,8 +13,8 @@ struct Stat {
 	int32 hp = 0;
 	int32 maxHp = 0;
 	int32 attack = 0;
-	int32 defence = 0;
+	int32 defense = 0;
 
 	Stat(int _hp = 0, int _maxHp = 0, int _attack = 0, int _defence = 0)
-		: hp(_hp), maxHp(_maxHp), attack(_attack), defence(_defence) { }
+		: hp(_hp), maxHp(_maxHp), attack(_attack), defense(_defence) { }
 };

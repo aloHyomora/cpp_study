@@ -15,10 +15,9 @@ Dragon::~Dragon()
 
 void Dragon::Init()
 {
-	{
-		m_stat.maxHp = 300;
-		m_stat.hp = m_stat.maxHp;
-		m_stat.attack = 20;
-		m_stat.defence = 10;
-	}
+	m_stat.maxHp = 300;
+	m_stat.hp = m_stat.maxHp;
+	m_stat.attack = 20;
+	m_stat.defense = 10;
+	
 }

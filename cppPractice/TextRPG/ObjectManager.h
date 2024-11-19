@@ -11,6 +11,9 @@ public:
 
 	void CreateObjects();
 
+	Player* GetPlayer();
+	Enemy* GetEnemy();
+
 private:
 	Player* m_player;                               // ÇÃ·¹ÀÌ¾î °´Ã¼
 	Enemy* m_enemy;                                 // Àû °´Ã¼

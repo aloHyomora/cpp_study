@@ -14,7 +14,8 @@ public:
 
 public:
 	virtual void Init() abstract;
-	void Attack();
+	
+	void TakeDamage(int damage) override;
 	Reward GetReward() { return _reward; }
 
 

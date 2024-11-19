@@ -1,9 +1,2 @@
 ﻿  BattleManager.cpp
-  Dragon.cpp
-  Enemy.cpp
-  Goblin.cpp
-  Object.cpp
-  ObjectManager.cpp
-  Player.cpp
-  코드를 생성하고 있습니다...
   TextRPG.vcxproj -> C:\Users\aloho\Github\cpp_study\cppPractice\TextRPG\x64\Debug\TextRPG.exe

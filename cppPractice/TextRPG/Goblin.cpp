@@ -15,10 +15,9 @@ Goblin::~Goblin()
 
 void Goblin::Init()
 {
-	{
-		m_stat.maxHp = 50;
-		m_stat.hp = m_stat.maxHp;
-		m_stat.attack = 10;
-		m_stat.defence = 5;
-	}
+	m_stat.maxHp = 50;
+	m_stat.hp = m_stat.maxHp;
+	m_stat.attack = 10;
+	m_stat.defense = 5;
+
 }
