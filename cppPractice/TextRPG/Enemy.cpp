@@ -17,3 +17,7 @@ void Enemy::Init()
 {
 	m_type = ObjectType::Enemy;
 }
+
+void Enemy::Attack()
+{
+}

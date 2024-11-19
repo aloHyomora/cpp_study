@@ -22,7 +22,3 @@ void Goblin::Init()
 		m_stat.defence = 5;
 	}
 }
-
-void Goblin::Attack()
-{
-}

@@ -14,7 +14,7 @@ public:
 
 public:
 	virtual void Init() abstract;
-	virtual void Attack() abstract;
+	void Attack();
 	Reward GetReward() { return _reward; }
 
 

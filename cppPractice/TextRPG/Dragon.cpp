@@ -5,6 +5,7 @@ Dragon::Dragon()
 {
 	cout << "Dragon »ý¼º" << endl;
 	Init();
+	PrintStatInfo();
 }
 
 Dragon::~Dragon()
@@ -20,8 +21,4 @@ void Dragon::Init()
 		m_stat.attack = 20;
 		m_stat.defence = 10;
 	}
-}
-
-void Dragon::Attack()
-{
 }

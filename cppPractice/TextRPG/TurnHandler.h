@@ -6,7 +6,7 @@ class TurnHandler
 public:
 	DECLARE_SINGLE(TurnHandler);
 
-	void Init() { _roundNum = 1; }
+	void Init();
 
 	int GetRoundNum() { return _roundNum; }
 

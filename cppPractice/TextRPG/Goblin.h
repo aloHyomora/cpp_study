@@ -8,7 +8,6 @@ public:
 
 public:
 	virtual void Init() override;
-	virtual void Attack() override;
 
 };
 
