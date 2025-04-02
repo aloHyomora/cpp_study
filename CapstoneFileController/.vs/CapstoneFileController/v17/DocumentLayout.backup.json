@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CSVController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:CSVController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CapstoneFileController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:CapstoneFileController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\FileLoader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:FileLoader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CSVController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:CSVController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Visualizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:Visualizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\FileLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:FileLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CapstoneFileController.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:CapstoneFileController.rc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\targetver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:targetver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Visualizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC4E9CCA-32A1-4148-8BEB-9CAABA88950D}|CapstoneFileController.vcxproj|solutionrelative:Visualizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 160,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "targetver.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\targetver.h",
+              "RelativeDocumentMoniker": "targetver.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\targetver.h",
+              "RelativeToolTip": "targetver.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-02T11:23:43.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Resource.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Resource.h",
+              "RelativeDocumentMoniker": "Resource.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Resource.h",
+              "RelativeToolTip": "Resource.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-02T11:14:00.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CapstoneFileController.rc",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CapstoneFileController.rc",
+              "RelativeDocumentMoniker": "CapstoneFileController.rc",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CapstoneFileController.rc",
+              "RelativeToolTip": "CapstoneFileController.rc",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-02T10:10:40.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Visualizer.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Visualizer.h",
+              "RelativeDocumentMoniker": "Visualizer.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Visualizer.h",
+              "RelativeToolTip": "Visualizer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-02T09:53:25.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileLoader.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\FileLoader.h",
+              "RelativeDocumentMoniker": "FileLoader.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\FileLoader.h",
+              "RelativeToolTip": "FileLoader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-02T09:35:27.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CapstoneFileController.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CapstoneFileController.cpp",
+              "RelativeDocumentMoniker": "CapstoneFileController.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CapstoneFileController.cpp",
+              "RelativeToolTip": "CapstoneFileController.cpp",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAYwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T09:29:04.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CSVController.h",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CSVController.h",
+              "RelativeDocumentMoniker": "CSVController.h",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CSVController.h",
+              "RelativeToolTip": "CSVController.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-02T12:25:14.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CSVController.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CSVController.cpp",
+              "RelativeDocumentMoniker": "CSVController.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\CSVController.cpp",
+              "RelativeToolTip": "CSVController.cpp",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAQwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T12:25:18.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileLoader.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\FileLoader.cpp",
+              "RelativeDocumentMoniker": "FileLoader.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\FileLoader.cpp",
+              "RelativeToolTip": "FileLoader.cpp",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T09:35:32.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Visualizer.cpp",
+              "DocumentMoniker": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Visualizer.cpp",
+              "RelativeDocumentMoniker": "Visualizer.cpp",
+              "ToolTip": "C:\\Users\\aloho\\Github\\cpp_study\\CapstoneFileController\\Visualizer.cpp",
+              "RelativeToolTip": "Visualizer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T09:35:53.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
