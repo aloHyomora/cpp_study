@@ -6,6 +6,7 @@
 #include <locale>
 #include <cwchar>
 #include <iostream>
+#include <codecvt>
 
 // 헬퍼 함수들을 익명 네임스페이스에 정의합니다.
 namespace {
@@ -39,11 +40,49 @@ namespace {
         return data;
     }
 
+    void writeCSV_UTF8_BOM(const std::wstring& filePath, const std::vector<std::vector<std::wstring>>& data)
+    {
+        // 1) ofstream을 바이너리 모드로 엽니다.
+        // 2) BOM을 직접 쓰기 위해 std::ofstream을 사용합니다 (std::wofstream + locale 방식은 Windows에서 예기치 못한 인코딩 문제 발생 가능).
+        std::ofstream out(filePath, std::ios::binary);
+        if (!out.is_open()) {
+            // 파일 열기 실패 처리
+            return;
+        }
+
+        // (1) UTF-8 BOM 추가 (EF BB BF)
+        const unsigned char bom[] = { 0xEF, 0xBB, 0xBF };
+        out.write(reinterpret_cast<const char*>(bom), sizeof(bom));
+
+        // (2) wstring → UTF-8 변환기
+        std::wstring_convert<std::codecvt_utf8<wchar_t>> converter;
+
+        // (3) CSV 내용 기록
+        // 영어 주석: For each row, convert each wstring cell to UTF-8 and write it with commas.
+        // 한국어 주석: 각 행(row)에 대해, 각 셀(cell)을 UTF-8로 변환한 뒤 쉼표로 구분하여 기록합니다.
+        for (const auto& row : data) {
+            bool firstCell = true;
+            for (const auto& cell : row) {
+                if (!firstCell) {
+                    out << ",";
+                }
+                else {
+                    firstCell = false;
+                }
+                // wstring을 UTF-8로 변환
+                std::string utf8Str = converter.to_bytes(cell);
+                out << utf8Str;
+            }
+            out << "\n";
+        }
+
+        out.close();
+    }
 
     // 2차원 벡터 데이터를 CSV 파일로 쓰기
     void writeCSV(const std::wstring& filePath, const std::vector<std::vector<std::wstring>>& data) {
         std::wofstream out(filePath);
-        out.imbue(std::locale("")); // 로케일 설정 (필요시)
+        out.imbue(std::locale("en_US.UTF-8")); // 로케일 설정 (필요시)
         for (const auto& row : data) {
             for (size_t i = 0; i < row.size(); ++i) {
                 out << row[i];
@@ -200,6 +239,6 @@ void CSVController::mergeGroupFilesAdvanced(const std::wstring& combinedPath,
     }
 
     // 5. 최종 병합된 데이터를 outputPath로 저장
-    writeCSV(outputPath, mergedData);
+    writeCSV_UTF8_BOM(outputPath, mergedData);
     std::wcout << L"Merging complete. Output saved to: " << outputPath << std::endl;
 }
